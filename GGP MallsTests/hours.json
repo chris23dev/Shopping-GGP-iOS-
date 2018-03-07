@@ -1,0 +1,10 @@
+{
+    "openTime": "11:00",
+    "closeTime": "00:00",
+    "open": true,
+    "startDay": "11/26",
+    "endDay": "11/26",
+    "validUntilDate": "2015-11-27",
+    "holidayName": "Thanksgiving",
+    "dayOfWeek": "Sunday",
+}

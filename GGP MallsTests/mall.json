@@ -1,0 +1,46 @@
+{
+    "id": 1001,
+    "name": "Augusta Mall",
+    "address": {
+        "line1": "3450 Wrightsboro Road",
+        "city": "Augusta",
+        "state": "GA",
+        "zip": "30909"
+    },
+    "logoUrl": "http://assets.digitalservices.ggp.com/content/dam/ggp-digital-assets/Images/Mall-Images/Mall-Logos/Augusta-Mall-Black-Fill-Vector.svg",
+    "nonSvgLogoUrl": "http://ggp-20150-elb1uswe-tivuvei04p4c-1462559398.us-west-2.elb.amazonaws.com/content/dam/ggp-digital-assets/Images/Mall-Images/Mall-Logos/Back-and-White/augusta-mall-black-fill-420x87.png/jcr:content/renditions/cq5dam.web.480.99.png?cq_ck=1444776371000",
+    "phoneNumber": "7067318850",
+    "smsNumber": "123456789",
+    "timeZone": "America/New_York",
+    "socialMedia": {
+        "facebookUrl": "http://www.facebook.com/AugustaMall",
+        "pinterestUrl": "http://pinterest.com/AugustaMall",
+        "instagramUrl": "http://instagram.com/TowsonTownCenter",
+        "googlePlusUrl": "",
+        "twitterUrl": "http://twitter.com/AugustaMall"
+    },
+    "placeWiseId": 104,
+    "latitude": "33.46541",
+    "longitude": "-82.0806",
+    "websiteUrl": "http://www.augustamall.com",
+    "parkingDescription": "<p>Enjoy your visit to Augusta Mall with all of your favorite retailers, dining venues, entertainment options and plenty of convenient parking.&nbsp;<br />\n&bull; Free parking is provided for guests and employees&nbsp;<br />\n&bull; The mall&#39;s two main entrances are accessible via Wrightsboro Road, off of I-520&nbsp;<br />\n&bull; An additional entrance is located off Wylds Road on the south end of the mall property&nbsp;<br />\n&bull; Handicap parking is available at all five of the mall&#39;s main entrances and near all department store entrances&nbsp;</p>\n\n<p><strong>Holiday parking:&nbsp;</strong><br />\n&bull; The entrance at the south end of the mall near Wylds Road provides a quicker route during busy holiday periods&nbsp;</p>\n",
+    "todaysHours": {
+        "id": 115748,
+        "openTime": "08:00",
+        "closeTime": "22:00",
+        "open": true
+    },
+    "distanceFromSearchLocation": 11.866841590787494,
+    "operatingHours": [
+                       {
+                       "id": 148368,
+                       "openTime": "12:00",
+                       "closeTime": "18:00",
+                       "open": true,
+                       "startDay": "SUN",
+                       "source": "AUTHORED"
+                       }
+                       ],
+    "status": "ACTIVE",
+    "hasTheater": true
+}

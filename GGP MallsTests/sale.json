@@ -1,0 +1,72 @@
+{
+    "id": 106253,
+    "mallId": 1113,
+    "store": {
+        "id": 4943,
+        "name": "Brighton Collectibles",
+        "placeWiseStoreId": 2138860374,
+        "placeWiseRetailerId": 5415,
+    },
+    "brand": {
+        "id": 2432254,
+        "name": "BRIGHTON COLLECTIBLES",
+        "description": "<p>At Brighton Collectibles, we are passionate about our attention to detail. You'll find designs that accessorize women from head to toe, and each piece is made to be as beautiful on the back as it is on the front, and as exquisitely made on the inside as it is on the outside. We are one of the few remaining companies with our own in-house design team and skilled artisans who produce the products - putting their hearts into creating unique, artistic and finely crafted accessories. From classic to contemporary, there are Brighton designs for everyone.</p>",
+        "logoUrl": "https://s3.amazonaws.com/placewisesitecontent/images/api/stores/5415.svg",
+        "nonSvgLogoUrl": "http://images.shoptopia.com/mcache/{size}/store/5415",
+        "categories": [
+                       {
+                       "id": 11,
+                       "code": "ACCESSORIES",
+                       "parentId": 1
+                       },
+                       {
+                       "id": 1,
+                       "code": "FASHION"
+                       }
+                       ]
+    },
+    "type": "SALES_AND_PROMOS",
+    "title": "Indulge in little luxuries",
+    "displayDateTime": "2015-12-14T00:00",
+    "startDateTime": "2015-12-14T00:00",
+    "endDateTime": "2016-01-31T23:59",
+    "description": "<p>Leather accessories have never been so fun!</p>",
+    "placeWiseId": 2138177807,
+    "imageUrl": "http://images.shoptopia.com/mcache/{size}/sales/5415/Holiday2015_450x500_Jpegs13.jpg",
+    "defaultImageUrl": "http://assets.digitalservices.ggp.com/content/dam/ggp-digital-assets/Images/Stock-Images/Placeholder/default_sale_icon.png/jcr:content/renditions/cq5dam.web.480.480.png",
+    "categories": [
+                   {
+                   "id": 11,
+                   "code": "ACCESSORIES",
+                   "parentId": 1
+                   },
+                   {
+                   "id": 24,
+                   "code": "CARDS_GIFTS",
+                   "parentId": 8
+                   },
+                   {
+                   "id": 1,
+                   "code": "FASHION"
+                   },
+                   {
+                   "id": 13,
+                   "code": "JEWELRY_WATCHES",
+                   "parentId": 1
+                   },
+                   {
+                   "id": 25,
+                   "code": "LUGGAGE",
+                   "parentId": 8
+                   },
+                   {
+                   "id": 8,
+                   "code": "SPECIALTY"
+                   }
+                   ],
+    "topRetailer": false,
+    "featured": false,
+    "local": false,
+    "brandName": "BRIGHTON COLLECTIBLES",
+    "mallName": "Oakbrook Center"
+}

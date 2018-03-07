@@ -1,0 +1,15 @@
+//
+//  GGPMallsTestPrefix.pch
+//  GGP Malls
+//
+//  Created by Chistiaan Kuilman on 1/12/16.
+//  Copyright © 2016 GGP. All rights reserved.
+//
+
+#ifndef GGPMallsTestPrefix_pch
+#define GGPMallsTestPrefix_pch
+
+#import <XCTest/XCTest.h>
+#import <OCMock/OCMock.h>
+
+#endif /* GGPMallsTestPrefix_pch */

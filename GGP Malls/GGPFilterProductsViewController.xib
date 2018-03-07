@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="10117" systemVersion="15F34" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES">
+    <dependencies>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="10117"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner" customClass="GGPFilterProductsViewController">
+            <connections>
+                <outlet property="tableViewContainer" destination="4YF-47-w6d" id="4KF-Em-SrC"/>
+                <outlet property="view" destination="i5M-Pr-FkT" id="sfx-zR-JGt"/>
+            </connections>
+        </placeholder>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <view clearsContextBeforeDrawing="NO" contentMode="scaleToFill" id="i5M-Pr-FkT">
+            <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
+            <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+            <subviews>
+                <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="4YF-47-w6d">
+                    <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
+                    <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                </view>
+            </subviews>
+            <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
+            <constraints>
+                <constraint firstItem="4YF-47-w6d" firstAttribute="leading" secondItem="i5M-Pr-FkT" secondAttribute="leading" id="Bsz-st-sDC"/>
+                <constraint firstItem="4YF-47-w6d" firstAttribute="top" secondItem="i5M-Pr-FkT" secondAttribute="top" id="K4K-c7-rP9"/>
+                <constraint firstAttribute="trailing" secondItem="4YF-47-w6d" secondAttribute="trailing" id="Zjc-1r-hnb"/>
+                <constraint firstAttribute="bottom" secondItem="4YF-47-w6d" secondAttribute="bottom" id="fVA-xa-qYP"/>
+            </constraints>
+        </view>
+    </objects>
+</document>

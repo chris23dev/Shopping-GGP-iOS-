@@ -1,0 +1,6 @@
+framework module JMap {
+  umbrella header "JMap.h"
+
+  export *
+  module * { export * }
+}

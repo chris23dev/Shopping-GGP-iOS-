@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="10117" systemVersion="15F34" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES">
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="10085"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner" customClass="GGPAppContainerViewController">
+            <connections>
+                <outlet property="bannerContainer" destination="WYJ-PU-cyz" id="rhA-jn-Vh9"/>
+                <outlet property="overlayImageView" destination="1WY-wx-TGI" id="hoY-rz-EnW"/>
+                <outlet property="tabBarContainer" destination="7B3-64-Yna" id="yYw-n6-mkP"/>
+                <outlet property="view" destination="i5M-Pr-FkT" id="sfx-zR-JGt"/>
+            </connections>
+        </placeholder>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <view clearsContextBeforeDrawing="NO" contentMode="scaleToFill" id="i5M-Pr-FkT">
+            <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
+            <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+            <subviews>
+                <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="7B3-64-Yna">
+                    <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
+                    <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                </view>
+                <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="WYJ-PU-cyz" userLabel="Banner Container">
+                    <rect key="frame" x="0.0" y="516" width="600" height="40"/>
+                    <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="calibratedWhite"/>
+                    <constraints>
+                        <constraint firstAttribute="height" constant="40" id="ugR-KP-WcE"/>
+                    </constraints>
+                </view>
+                <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" translatesAutoresizingMaskIntoConstraints="NO" id="1WY-wx-TGI">
+                    <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
+                </imageView>
+            </subviews>
+            <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
+            <constraints>
+                <constraint firstAttribute="trailing" secondItem="7B3-64-Yna" secondAttribute="trailing" id="2KA-vG-yjz"/>
+                <constraint firstAttribute="bottom" secondItem="7B3-64-Yna" secondAttribute="bottom" id="2fL-V8-NdX"/>
+                <constraint firstItem="7B3-64-Yna" firstAttribute="top" secondItem="i5M-Pr-FkT" secondAttribute="top" id="59K-tD-yaF"/>
+                <constraint firstItem="WYJ-PU-cyz" firstAttribute="leading" secondItem="i5M-Pr-FkT" secondAttribute="leading" id="6nX-Wm-jv1"/>
+                <constraint firstItem="WYJ-PU-cyz" firstAttribute="height" secondItem="7B3-64-Yna" secondAttribute="height" id="D4O-kA-U3Y"/>
+                <constraint firstItem="1WY-wx-TGI" firstAttribute="leading" secondItem="i5M-Pr-FkT" secondAttribute="leading" id="PvC-dC-aBg"/>
+                <constraint firstAttribute="trailing" secondItem="1WY-wx-TGI" secondAttribute="trailing" id="S0Z-hn-8LN"/>
+                <constraint firstAttribute="bottom" secondItem="WYJ-PU-cyz" secondAttribute="bottom" constant="44" id="X1k-1b-6NL"/>
+                <constraint firstAttribute="bottom" secondItem="1WY-wx-TGI" secondAttribute="bottom" id="ZXn-Ge-CGl"/>
+                <constraint firstItem="7B3-64-Yna" firstAttribute="leading" secondItem="i5M-Pr-FkT" secondAttribute="leading" id="aXw-qe-8DD"/>
+                <constraint firstItem="WYJ-PU-cyz" firstAttribute="top" secondItem="i5M-Pr-FkT" secondAttribute="top" id="fYM-XZ-QeY"/>
+                <constraint firstItem="1WY-wx-TGI" firstAttribute="top" secondItem="i5M-Pr-FkT" secondAttribute="top" id="o4a-xG-ues"/>
+                <constraint firstItem="WYJ-PU-cyz" firstAttribute="width" secondItem="7B3-64-Yna" secondAttribute="width" id="vjP-ID-aRV"/>
+                <constraint firstAttribute="trailing" secondItem="WYJ-PU-cyz" secondAttribute="trailing" id="xdR-lj-gce"/>
+            </constraints>
+            <variation key="default">
+                <mask key="constraints">
+                    <exclude reference="D4O-kA-U3Y"/>
+                    <exclude reference="fYM-XZ-QeY"/>
+                    <exclude reference="vjP-ID-aRV"/>
+                </mask>
+            </variation>
+        </view>
+    </objects>
+</document>

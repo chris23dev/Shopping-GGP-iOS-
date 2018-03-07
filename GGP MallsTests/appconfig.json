@@ -1,0 +1,9 @@
+{
+    "minIosVersion": "0.0.2",
+    "minAndroidVersion": "0.0.1",
+    "holidaysStartDate": "2015-11-10",
+    "holidaysEndDate": "2016-01-02",
+    "holidayHoursRelativeUrl": "/en/visit/holiday-hours.basic.html",
+    "privacyGlobalUrl": "http://assets.digitalservices.ggp.com/content/ggp/malls/global-mall-pages/en/privacy-statement.basic.html",
+    "termsGlobalUrl": "http://assets.digitalservices.ggp.com/content/ggp/malls/global-mall-pages/en/terms-of-use.basic.html"
+}

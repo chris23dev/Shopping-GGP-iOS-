@@ -1,0 +1,137 @@
+{
+    "id": 1,
+    "leaseId": 1780,
+    "mallId": 1021,
+    "todaysHours": {
+        "openTime": "00:00",
+        "closeTime": "00:00",
+        "open": false
+    },
+    "unit": {
+        "id": 5210,
+        "unitType": "IN_MALL"
+    },
+    "name": "Paris Nails",
+    "description": "test description",
+    "brand": {
+        "id": 2456367,
+        "name": "PARIS NAILS",
+        "categories": [
+                       {
+                       "id": 28,
+                       "code": "SERVICES",
+                       "parentId": 8
+                       },
+                       {
+                       "id": 8,
+                       "code": "SPECIALTY"
+                       }
+                       ]
+    },
+    "phoneNumber": "3193376637",
+    "logoUrl": "logourl",
+    "nonSvgLogoUrl": "non svg",
+    "blackAndWhiteLogoUrl": "black and white",
+    "heroUrl": "hero",
+    "openTableId": 12999,
+    "googlePlacesId": "ChIJ200of21E5IcRc8iirxQ3aKs",
+    "unitType": "IN_MALL",
+    "websiteUrl": "website",
+    "houseName": "house name",
+    "operatingHours": [
+                       {
+                       "id": 174894,
+                       "storeId": 2,
+                       "openTime": "10:00",
+                       "closeTime": "21:00",
+                       "open": true,
+                       "startDay": "FRI",
+                       "source": "AUTHORED"
+                       },
+                       {
+                       "id": 174895,
+                       "storeId": 2,
+                       "openTime": "10:00",
+                       "closeTime": "21:00",
+                       "open": true,
+                       "startDay": "MON",
+                       "source": "AUTHORED"
+                       },
+                       {
+                       "id": 174897,
+                       "storeId": 2,
+                       "openTime": "10:00",
+                       "closeTime": "21:00",
+                       "open": true,
+                       "startDay": "SAT",
+                       "source": "AUTHORED"
+                       },
+                       {
+                       "id": 174899,
+                       "storeId": 2,
+                       "openTime": "11:00",
+                       "closeTime": "18:00",
+                       "open": true,
+                       "startDay": "SUN",
+                       "source": "AUTHORED"
+                       },
+                       {
+                       "id": 174898,
+                       "storeId": 2,
+                       "openTime": "10:00",
+                       "closeTime": "21:00",
+                       "open": true,
+                       "startDay": "THU",
+                       "source": "AUTHORED"
+                       },
+                       {
+                       "id": 174893,
+                       "storeId": 2,
+                       "openTime": "10:00",
+                       "closeTime": "21:00",
+                       "open": true,
+                       "startDay": "TUE",
+                       "source": "AUTHORED"
+                       },
+                       {
+                       "id": 174896,
+                       "storeId": 2,
+                       "openTime": "10:00",
+                       "closeTime": "21:00",
+                       "open": true,
+                       "startDay": "WED",
+                       "source": "AUTHORED"
+                       }
+                       ],
+    "operatingHoursExceptions": [
+                                 {
+                                 "id": 81141,
+                                 "storeId": 1,
+                                 "openTime": "06:00",
+                                 "closeTime": "22:00",
+                                 "open": true,
+                                 "startMonthDay": "11/27",
+                                 "endMonthDay": "11/27",
+                                 "validUntilDate": "2015-11-28",
+                                 "holidayName": ""
+                                 },
+                                 {
+                                 "id": 81140,
+                                 "storeId": 1,
+                                 "openTime": "00:00",
+                                 "closeTime": "00:00",
+                                 "open": false,
+                                 "startMonthDay": "11/26",
+                                 "endMonthDay": "11/26",
+                                 "validUntilDate": "2015-11-27",
+                                 "holidayName": ""
+                                 }
+                                 ],
+    "placeWiseStoreId": 2138854767,
+    "placeWiseRetailerId": 7879,
+    "movieTheaterCinemaSourceId": 323402,
+    "numberOfScreens": 4,
+    "seatingInformation": "seating info",
+    "movies": [],
+    "lastModifiedDateTime": "2015-10-29T01:13"
+}

@@ -1,0 +1,31 @@
+{
+    "id": 199259,
+    "title": "Star Wars: The Force Awakens 3D",
+    "synopsis": "In this continuation of the \"Star Wars\" saga, balance returns to the Force as the First Order, emerging from the ashes of the Empire, clashes with the Resistance, which includes scrappy newcomers as well as heroes from the former Rebel Alliance.",
+    "mpaaRating": "PG-13",
+    "runTimeInMinutes": 136,
+    "director": "J.J. Abrams",
+    "parentId": 175811,
+    "fandangoId": 181972,
+    "largePosterImageUrl": "http://www.movienewsletters.net/photos/199259h1.jpg",
+    "smallPosterImageUrl": "http://www.movienewsletters.net/photos/19925901.jpg",
+    "showtimes": [
+                  {
+                  "movieShowtime": "2015-12-17T20:00"
+                  },
+                  {
+                  "movieShowtime": "2015-12-17T23:00"
+                  }
+                  ],
+    "genres": [
+               "SciFi/Fantasy",
+               ""
+               ],
+    "actors": [
+               "John Boyega",
+               "Daisy Ridley",
+               "Oscar Isaac",
+               "Adam Driver",
+               "Domhnall Gleeson"
+               ]
+}

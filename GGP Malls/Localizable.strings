@@ -1,0 +1,668 @@
+/*
+  Localizable.strings
+  GGP Malls
+
+  Created by Christiaan Kuilman on 12/16/15.
+  Copyright © 2015 GGP. All rights reserved.
+*/
+
+
+//Alerts
+"ALERT_OK" = "OK";
+"ALERT_UNSAVED_CHANGES_TITLE" = "You have unsaved changes.";
+"ALERT_UNSAVED_CHANGES_TEXT" = "If you leave, your changes will be lost.";
+"ALERT_UNSAVED_CHANGES_STAY" = "Stay";
+"ALERT_UNSAVED_CHANGES_LEAVE" = "Leave";
+"ALERT_GENERIC_ERROR_MESSAGE" = "We're sorry. Something went wrong. Select OK to return to the previous screen and try again.";
+"ALERT_FORCE_UPDATE_TITLE" = "Update Required";
+"ALERT_FORCE_UPDATE" = "In order to continue, you must update to the lastest version.";
+"ALERT_ACTION_UPDATE" = "Update";
+"ALERT_ENTER_VALID_EMAIL" = "Please enter a valid email address";
+"ALERT_WIFI_UNAVAILABLE" = "No connection. Some features may not be available.";
+
+//Directory
+"DIRECTORY_TITLE" = "DIRECTORY";
+"DIRECTORY_MAP_TITLE" = "MAP";
+"DIRECTORY_LIST_TITLE" = "LIST";
+"DIRECTORY_SWIPE_FAVORITE" = "Favorite";
+"DIRECTORY_SWIPE_GUIDE_ME" = "Guide Me";
+"DIRECTORY_SEARCH_PLACEHOLDER" = "Search by Store or Restaurant";
+
+//Filter
+"FILTER_CATEGORIES" = "Categories";
+"FILTER_PRODUCTS" = "Products";
+"FILTER_BRANDS" = "Brands";
+"FILTER_BUTTON" = "Filter";
+"FILTER_CANCEL" = "Cancel";
+"FILTER_TITLE" = "FILTER";
+"FILTER_CATEGORIES_HEADING" = "Categories";
+"FILTER_PRODUCTS_HEADING" = "Products";
+"FILTER_BRANDS_HEADING" = "Brands";
+"FILTER_BRANDS_SEARCH_PLACEHOLDER" = "Type brand name";
+"FILTER_BRANDS_SEARCH_DISCLAIMER" = "Although we do our best to list all retail offerings, the list below may not be comprehensive or reflect all items currently in stock.";
+"FILTER_BRANDS_RESULTS_DISCLAIMER_HEADING" = "We're sorry, we couldn't find that brand.";
+"FILTER_BRANDS_RESULTS_DISCLAIMER" = "Please note that only a limited number of brands are included in the directory.";
+"FILTER_DESCRIPTION" = "Now displaying %ld stores that carry:";
+
+//Filter Showcase
+"FILTER_SHOWCASE_HEADER" = "Filter by\nProducts & Brands";
+"FILTER_SHOWCASE_SUB_HEADER" = "Our new feature can now help you find stores that carry specific products or brands.";
+
+//Filter categories
+"ALL_PREFIX" = "All";
+"ALL_STORES" = "All Stores";
+"ALL_SALES" = "All Sales";
+"USER_FAVORITES" = "My Favorites";
+
+// Product Filter
+"PRODUCT_FILTER_DISCLAIMER" = "Although we do our best to list all retailer offerings, the list below may not be comprehensive or reflect all items currently in stock.";
+
+// Product Parent Categories
+"boys-clothing" = "Boys' Clothing";
+"electronics"  = "Electronics";
+"girls-clothing" = "Girls' Clothing";
+"gourmet-foods" = "Gourmet Foods";
+"health-beauty" = "Health & Beauty";
+"home-bed-bath" = "Home, Bed & Bath";
+"jewelry" = "Jewelry";
+"mens-clothing" = "Men's Clothing";
+"mens-shoes" = "Men's Shoes";
+"sports" = "Sporting Goods";
+"toys-games" = "Toys & Games";
+"womens-clothing" = "Women's Clothing";
+"womens-shoes" = "Women's Shoes";
+
+// Product Child Categories
+"action-figures" = "Action Figures";
+"appliances" = "Appliances";
+"baby" = "Baby Clothing";
+"baseball" = "Baseball Gear";
+"basketball" = "Basketball Gear";
+"bedding" = "Bedding";
+"beds" = "Beds";
+"belts" = "Belts";
+"biking" = "Biking Gear";
+"blankets" = "Blankets";
+"board-games" = "Board Games";
+"boat-shoes" = "Boat Shoes";
+"booties" = "Booties";
+"boots" = "Boots";
+"bras-panties-lingerie" = "Bras, Panties & Lingerie";
+"candles" = "Candles";
+"candy" = "Candy";
+"chocolate" = "Chocolate";
+"coffee" = "Coffee";
+"computers" = "Computers";
+"dolls" = "Dolls";
+"dress-shoes" = "Dress Shoes";
+"dresses" = "Dresses";
+"dvd-blu-ray" = "DVD & Blu-Ray";
+"earrings" = "Earrings";
+"fishing" = "Fishing Gear";
+"flats" = "Flats";
+"football" = "Football Gear";
+"fragrances-perfume" = "Fragrances & Perfume";
+"frames" = "Frames";
+"games-game-consoles" = "Games & Game Consoles";
+"golf" = "Golf Gear";
+"hair-care" = "Hair Care";
+"handbags-purses" = "Handbags & Purses";
+"heels" = "Heels";
+"hunting" = "Hunting Gear";
+"jackets-outerwear" = "Jackets & Outerwear";
+"kitchen" = "Kitchen";
+"lamps" = "Lamps";
+"linen" = "Linen";
+"loafers" = "Loafers";
+"lotions" = "Lotions";
+"makeup" = "Makeup";
+"nail-care" = "Nail Care";
+"necklaces" = "Necklaces";
+"oils" = "Oils";
+"outdoors" = "Outdoor Gear";
+"pants" = "Pants";
+"pasta" = "Pasta";
+"pendants" = "Pendants";
+"puzzles" = "Puzzles";
+"rings" = "Rings";
+"sandals" = "Sandals";
+"shirts" = "Shirts";
+"shirts-tops" = "Shirts & Tops";
+"shorts" = "Shorts";
+"skateboarding" = "Skateboarding Gear";
+"slippers" = "Slippers";
+"smartphones" = "Smartphones";
+"snacks" = "Snacks";
+"sneakers-athletic" = "Sneakers & Athletic";
+"soccer" = "Soccer Gear";
+"socks" = "Socks";
+"sound-systems-receivers" = "Sound Systems & Receivers";
+"spices" = "Spices";
+"storage" = "Storage";
+"suits" = "Suits";
+"sunglasses" = "Sunglasses";
+"supplements" = "Supplements";
+"sweaters" = "Sweaters";
+"swimming" = "Swimming Gear";
+"swimwear" = "Swimwear";
+"tables" = "Tables";
+"tablets" = "Tablets";
+"teas" = "Teas";
+"tech-gadgets" = "Tech & Gadgets";
+"televisions" = "Televisions";
+"ties" = "Ties";
+"tops" = "Tops";
+"towels" = "Towels";
+"underwear" = "Underwear";
+"watches" = "Watches";
+"winter-rain-boots" = "Winter & Rain Boots";
+
+//Movies
+"MOVIES_TITLE" = "MOVIES";
+"MOVIE_DETAILS_TITLE" = "MOVIE DETAILS";
+"MOVIE_DURATION_HOUR_LABEL" = "hr";
+"MOVIE_DURATION_MINUTE_LABEL" = "min";
+"MOVIES_NO_TIMES_TODAY_LABEL" = "No times today";
+"MOVIES_ORDER_TICKETS_FANDANGO_WEB" = "http://www.fandango.com/redirect.aspx?mid=%ld&tid=%@&date=%@";
+"MOVIES_NO_SHOWTIMES_FOR_DAY" = "Sorry, there are no movie showtimes for this day";
+"MOVIES_NO_SHOWTIMES_PLEASE_CHECK_BACK" = "Please check back or select another date";
+
+//Movie Details
+"MOVIE_DETAILS_CAST_LABEL" = "%@ in %@";
+"MOVIE_DETAILS_DIRECTOR_LABEL" = "Director: %@";
+"MOVIE_DETAILS_DISTRIBUTOR_LABEL" = "Distributor: %@";
+"MOVIE_DETAILS_SHOWTIMES_HEADER" = "Showtimes for %@";
+"MOVIE_DETAILS_PLOT_SUMMARY_HEADER" = "Plot Summary";
+"MOVIE_DETAILS_CAST_HEADER" = "Cast";
+"MOVIE_DETAILS_MORE_INFO_HEADER" = "More Info";
+
+//Details
+"DETAILS_TITLE" = "DETAILS";
+"DETAILS_MAP_TITLE" = "STORE MAP";
+"DETAILS_LOCATION_HEADER" = "Location";
+"DETAILS_ABOUT_HEADER" = "About";
+"DETAILS_CALL_LABEL" = "CALL";
+"DETAILS_GUIDE_ME_LABEL" = "GUIDE ME";
+"DETAILS_OPEN_TABLE_LABEL" = "RESERVE";
+"DETAILS_FAVORITE_LABEL" = "FAVORITE";
+"DETAILS_WEBSITE_LABEL" = "Website";
+"DETAILS_PROMOTIONS_HEADER" = "Sales and Events";
+"DETAILS_HOURS_HEADER_TODAY" = "Today's Hours:";
+"DETAILS_HOURS_HEADER_STORE" = "Store Hours";
+"DETAILS_HOURS_CLOSED_LABEL" = "Closed";
+"DETAILS_NOW_OPEN" = "NOW OPEN";
+"DETAILS_ANCHOR_STORE" = "Anchor Store";
+"DETAILS_DIRECTIONS_NON_PROXIMITY" = "Get Directions";
+"DETAILS_DIRECTIONS_WITH_PROXIMITY" = "%@, Get Directions";
+"DETAILS_PRODUCTS_HEADING" = "What you'll find in the store";
+"DETAILS_STORES_INSIDE" = "Stores inside";
+
+//Select Mall
+"SELECT_MALL_TITLE" = "SELECT YOUR MALL";
+"SELECT_MALL_CANCEL" = "Cancel";
+"SELECT_MALL_HEADER_NEARBY" = "Malls Near %@";
+"SELECT_MALL_HEADER_NEARBY_LOCATION_NAME_DEFAULT" = "You";
+"SELECT_MALL_HEADER_RECENT" = "Recent Malls";
+"SELECT_MALL_HEADER_MATCHING_NAME" = "Malls Matching %@";
+
+"SELECT_MALL_NEW_MANAGEMENT_TITLE" = "THIS MALL IS UNDER NEW MANAGEMENT";
+"SELECT_MALL_NEW_MANAGEMENT_DESCRIPTION" = "Sorry for the inconvenience. Please click below to search for a GGP mall near you.";
+
+"SELECT_MALL_RETRIEVE_LOCATION_FAIL_LABEL" = "Please enable location services to find nearby malls.";
+"SELECT_MALL_RETRIEVE_LOCATION_NOT_FOUND" = "We're sorry, there are no GGP malls within 50 miles of you.";
+"SELECT_MALL_SEARCH_BAR_PLACEHOLDER" = "Enter City or ZIP";
+"SELECT_MALL_UNAVAILABLE_TITLE" = "We're Still Working on This...";
+"SELECT_MALL_UNAVAILABLE_MESSAGE" = "%@ isn't ready to be viewed in our app yet. Please visit the mall website. We apologize for the inconvenience.";
+"SELECT_MALL_UNAVAILABLE_CHANGE_MALL" = "Change mall";
+"SELECT_MALL_UNAVAILABLE_VISIT_WEBSITE" = "Visit website";
+"SELECT_MALL_NO_MATCHES_FOUND" = "We're sorry, there are no GGP malls matching your search.";
+"SELECT_MALL_SEARCH_BAR_LOCATION_PLACEHOLDER" = "Enter City or ZIP";
+"SELECT_MALL_SEARCH_BAR_NAME_PLACEHOLDER" = "Enter Mall Name";
+"SELECT_MALL_SEARCH_BY_LOCATION" = "Search by Location";
+"SELECT_MALL_SEARCH_BY_NAME" = "Search by Name";
+"MALL_LOADING_LABEL" = "Loading \n%@";
+
+//Dining
+"DINING_TITLE" = "DINING";
+
+//Shopping
+"SHOPPING_TITLE" = "SHOPPING";
+"SHOPPING_SALE_DETAILS_TITLE" = "SALE DETAILS";
+"SHOPPING_DETAIL_MAP_TITLE" = "LOCATION";
+"SHOPPING_SEE_ALL" = "SEE ALL SALES & NEW IN STORE";
+"SHOPPING_SEE_ALL_HEADER_TEXT" = "All Sales & New In Store";
+"SHOPPING_RESULTS_HEADER" = "%ld Results in %@";
+"SHOPPING_RESULTS_HEADER_WITH_TENANT" = "%ld Results for %ld Store";
+"SHOPPING_RESULTS_HEADER_WITH_TENANTS" = "%ld Results for %ld Stores";
+// - Refine
+"SHOPPING_REFINE_TITLE" = "REFINE";
+"SHOPPING_REFINE_BUTTON" = "Refine";
+// - store filter
+"SHOPPING_REFINE_STORE_FILTER_HEADER" = "FILTER BY STORE:";
+"SHOPPING_REFINE_STORE_FILTER_DEFAULT" = "All Stores";
+"SHOPPING_REFINE_STORE_FILTER_CHANGE_STORES" = "Change Stores";
+"SHOPPING_REFINE_STORE_FILTER_SEARCH_BAR_PLACEHOLDER" = "Enter Store Name";
+"SHOPPING_REFINE_STORE_FILTER_MY_FAVORITES" = "My Favorite Stores";
+"SHOPPING_REFINE_STORE_FILTER_CLEAR_ALL" = "Clear All";
+// - sort by
+"SHOPPING_REFINE_SORT_BY_HEADER" = "SORT BY:";
+"SHOPPING_REFINE_SORT_BY_ENDING_SOONEST" = "Ending Soonest";
+"SHOPPING_REFINE_SORT_BY_ALPHABETICAL" = "Sort By Name A-Z";
+"SHOPPING_REFINE_SORT_BY_REVERSE_ALPHABETICAL" = "Sort By Name Z-A";
+// - filter by
+"SHOPPING_REFINE_FILTER_BY_HEADER" = "FILTER BY TYPE:";
+"SHOPPING_REFINE_FILTER_BY_SALES_NEW_IN_STORE" = "Sales and New in Store";
+"SHOPPING_REFINE_FILTER_BY_SALES" = "Only Sales";
+"SHOPPING_REFINE_FILTER_BY_NEW_IN_STORE" = "Only New in Store";
+
+//Parking
+"PARKING_TITLE" = "PARKING";
+"PARKING_OVERVIEW_TITLE" = "OVERVIEW";
+"PARKING_REMINDER_TITLE" = "REMINDER";
+"PARKING_PARK_NEAR" = "Park near";
+
+//Parking Reminder
+"PARKING_REMINDER_ALERT_LOCATION_DISABLED_TITLE" = "Location Services are disabled";
+"PARKING_REMINDER_ALERT_LOCATION_DISABLED_MESSAGE" = "Please turn on Location Services so that the map can show your current location.";
+"PARKING_REMINDER_ALERT_LOCATION_DISABLED_CANCEL" = "No, Thanks";
+"PARKING_REMINDER_ALERT_LOCATION_DISABLED_SETTINGS" = "Settings";
+"PARKING_REMINDER_CARD_SPOT_SAVED" = "Spot saved. Enjoy your visit!";
+"PARKING_REMINDER_CARD_MOVE_MARKER" = "If you would like to move the marker, long press and drag to adjust its position.";
+"PARKING_REMINDER_CARD_ADD_NOTE" = "Add a Note...";
+"PARKING_REMINDER_CLEAR_BUTTON" = "CLEAR REMINDER";
+"PARKING_REMINDER_CARD_EXISTING_SPOT" = "Right where you left it.";
+"PARKING_REMINDER_CARD_SAVE_YOUR_SPOT" = "Save your spot";
+"PARKING_REMINDER_CARD_PLACE_PIN_INSTRUCTIONS" = "Zoom and pan until your current location is in the center of the map";
+"PARKING_REMINDER_CARD_PLACE_PIN_BUTTON" = "PLACE PIN";
+
+//Parking Info
+"PARKING_INFO_FIND_NEAREST_HEADER" = "FIND NEAREST PARKING";
+"PARKING_INFO_FIND_NEAREST_INSTRUCTION" = "Find the nearest parking to your store or restaurant.";
+"PARKING_INFO_SELECT_STORE" = "Select a store or restaurant";
+"PARKING_INFO_MAP_TITLE" = "PARKING MAP";
+"PARKING_AVAILABILITY_DISCLAIMER" = "This is an approximate estimate of current parking availability.";
+
+//Parking Availability
+"PARKING_AVAILABILITY_TITLE" = "AVAILABILITY";
+"PARKING_AVAILABILITY_HEADER" = "Availability";
+"PARKING_AVAILABILITY_ARRIVAL_TIME" = "ARRIVAL TIME";
+"PARKING_AVAILABILITY_TIME_WITH_DATE" = "%@ of %@";
+"PARKING_AVAILABILITY_NOW" = "Now";
+"PARKING_AVAILABILITY_MORNING" = "Morning";
+"PARKING_AVAILABILITY_AFTERNOON" = "Afternoon";
+"PARKING_AVAILABILITY_EVENING" = "Evening";
+"PARKING_AVAILABILITY_DONE" = "Done";
+"PARKING_AVAILABILITY_PARKING_FOR" = "PARKING FOR";
+"PARKING_AVAILABILITY_ENTER_STORE" = "Enter store or restaurant";
+"PARKING_AVAILABILITY_ON" = "on";
+
+//Parking Garage
+"PARKING_GARAGE_TITLE" = "AVAILABILITY";
+"PARKING_GARAGE_SPACES_OCCUPIED" = "Spaces Occupied";
+"PARKING_GARAGE_SPACES_AVAILABLE" = "Spaces Available";
+"PARKING_GARAGE_SEE_BY_LEVEL" = "See availability by level";
+"PARKING_GARAGE_DIRECTIONS" = "Get Directions";
+"PARKING_GARAGE_FULL" = "FULL";
+
+//Find My Car
+"FIND_MY_CAR_TITLE" = "FIND MY CAR";
+"FIND_MY_CAR_HEADER" = "The easiest way to\nfind your car.";
+"FIND_MY_CAR_ENTER_LICENSE_PLATE" = "Enter License Plate*";
+"FIND_MY_CAR_LENGTH_REQUIREMENT" = "*Must enter at least 3 characters";
+"FIND_MY_CAR_NO_RESULTS" = "No results matching \"%@\". Please try again.";
+"FIND_MY_CAR_SEARCH_RESULTS_TITLE" = "SEARCH RESULTS";
+"FIND_MY_CAR_RESULTS_MATCHING" = "%ld results matching \"%@\"";
+"FIND_MY_CAR_MAP_VIEW" = "MAP VIEW";
+
+//Toolbar
+"TOOLBAR_HOME" = "Home";
+"TOOLBAR_SHOPPING" = "Shopping";
+"TOOLBAR_DIRECTORY" = "Directory";
+"TOOLBAR_PARKING" = "Parking";
+"TOOLBAR_MORE" = "More";
+
+//More
+"MORE_CURRENT_MALL" = "Your current mall is";
+"MORE_CHANGE_MALL" = "CHANGE LOCATION";
+"MORE_MALL_INFO" = "Mall Info";
+"MORE_MALL_INFO_HOLIDAY_HOURS" = "Mall Info & Holiday Hours";
+"MORE_MALL_INFO_BLACK_FRIDAY" = "Black Friday Store Hours";
+"MORE_ACCOUNT" = "Account";
+"MORE_LOGIN" = "Login";
+"MORE_CREATE_ACCOUNT" = "Create an Account";
+"MORE_FEEDBACK" = "Provide Feedback";
+"MORE_PRIVACY_TERMS" = "Privacy and Terms of Use";
+"MORE_WERE_OPEN" = "We're Open";
+"MORE_TODAYS_HOURS" = "Today's Hours";
+"MORE_CLOSED" = "Closed Today";
+
+//Mall Info
+"MALL_INFO_TITLE" = "MALL INFO";
+"MALL_INFO_HOURS" = "Hours";
+"MALL_INFO_HOURS_DISCLAIMER" = "Individual store and restaurant hours vary and may differ from mall hours. Please refer to our directory for more details.";
+"MALL_INFO_CHANGE_MALL" = "CHANGE LOCATION";
+"MALL_INFO_HOLIDAY_HOURS_HIDE" = "Hide Holiday Hours";
+"MALL_INFO_HOLIDAY_HOURS_SHOW" = "View Holiday Hours";
+
+//Feedback
+"FEEDBACK_TITLE" = "PROVIDE FEEDBACK";
+
+//Privacy
+"PRIVACY_TERMS_TITLE" = "PRIVACY AND TERMS OF USE";
+
+//Home
+"HOME_WELCOME" = "Welcome";
+"HOME_WELCOME_WITH_NAME" = "Hello, %@";
+"HOME_TODAYS_HOURS" = "TODAY'S HOURS";
+"HOME_CLOSED" = "CLOSED";
+"HOME_TODAYS_EVENTS" = "Events Lineup";
+"HOME_JUST_FOR_YOU_AUTH" = "Just for You";
+"HOME_JUST_FOR_YOU" = "Today's Sales";
+"HOME_NOW_OPEN" = "NOW OPEN";
+"HOME_VIEW_ALL" = "View All";
+
+//Web View
+"PRIVACY_POLICY_URL" = "http://assets.digitalservices.ggp.com/content/ggp/malls/global-mall-pages/en/privacy-statement.basic.html";
+"TERMS_AND_CONDITIONS_URL" = "http://assets.digitalservices.ggp.com/content/ggp/malls/global-mall-pages/en/terms-of-use.basic.html";
+"FEEDBACK_URL" = "https://secure.opinionlab.com/ccc01/o.asp?id=EtOHKOOF";
+
+//Events
+"EVENTS_TITLE" = "EVENTS";
+"EVENTS_NO_RESULTS_HEADING" = "There are currently no events at %@";
+"EVENTS_NO_RESULTS_SUB_HEADING" = "Please check back at a later time.";
+"EVENT_DETAIL_TITLE" = "EVENT DETAIL";
+"EVENT_ENTERTAINMENT_TITLE" = "ENTERTAINMENT DETAIL";
+"EVENT_DETAIL_SECTION_HEADER" = "Event Details";
+"EVENT_DETAIL_MAP_TITLE" = "LOCATION";
+
+//Wayfinding
+"WAYFINDING_SELECT_NEAREST_STORE" = "Select nearest store";
+"WAYFINDING_SELECT_DESTINATION" = "Select destination";
+"WAYFINDING_FROM" = "from";
+"WAYFINDING_TO" = "to";
+"WAYFINDING_ON" = "on";
+"WAYFINDING_NO_RESULTS" = "No Results Found";
+"WAYFINDING_PICKER_DONE" = "Done";
+"WAYFINDING_DIRECTION_LIST_TITLE" = "Route List";
+"WAYFINDING_DIRECTION_LIST_DISCLAIMER" = "We strive to provide the most accurate directions, however, some information may be inaccurate and you will need to use your judgment and assume any risk concerning your use of these directional services.";
+"WAYFINDING_DISCLAIMER_TEXT" = "*We strive to provide the most accurate directions, however, some information may be inaccurate and you will need to use your judgment and assume any risk concerning your use of these directional services.";
+"WAYFINDING_NEXT_STEP" = "NEXT STEP";
+"WAYFINDING_INSIDE" = "Inside";
+"WAYFINDING_ALMOST_THERE_TITLE" = "You're almost there!";
+"WAYFINDING_LOCATED_INSIDE" = "is located inside of";
+
+//Login
+"LOGIN_TITLE" = "LOG IN";
+"LOGIN_FACEBOOK" = "Log in with Facebook";
+"LOGIN_GOOGLE" = "Log in with Google";
+"LOGIN_OR" = "OR";
+"LOGIN_EMAIL" = "Log in with Email";
+
+//Email Login
+"EMAIL_LOGIN_EMAIL_PLACEHOLDER" = "Email";
+"EMAIL_LOGIN_PASSWORD_PLACEHOLDER" = "Password";
+"EMAIL_LOGIN_BUTTON" = "LOG IN";
+"EMAIL_LOGIN_FORGOT_PASSWORD" = "Forgot Password?";
+"EMAIL_LOGIN_RESET_PASSWORD" = "Reset Password";
+"EMAIL_LOGIN_INVALID_ERROR" = "The email or password you entered is invalid. Please verify your information and try again.";
+
+//Email Support
+"EMAIL_SUPPORT_DESCRIPTION" = "If you have any questions or issues with your GGP Malls account, please email";
+"EMAIL_SUPPORT_ADDRESS" = "accountsupport@ggp.com";
+
+//Register
+"REGISTER_TITLE" = "CREATE ACCOUNT";
+"REGISTER_HEADER_CONFIRMATION" = "Confirmation";
+"REGISTER_HEADER_ALMOST_DONE" = "Almost Done";
+"REGISTER_DESCRIPTION" = "Please confirm or update the information below.";
+"REGISTER_EMAIL_LABEL" = "Email*";
+"REGISTER_FIRST_NAME_LABEL" = "First Name*";
+"REGISTER_LAST_NAME_LABEL" = "Last Name*";
+"REGISTER_REQUIRED_FIELD" = "*Required Field";
+"REGISTER_CONSENT" = "I am at least 13 years old and agree to the Privacy Policy.";
+"REGISTER_PRIVACY_POLICY" = "Privacy Policy";
+"REGISTER_BUTTON_TITLE" = "REGISTER";
+"REGISTER_FIRST_NAME_ERROR" = "Please provide your first name.";
+"REGISTER_LAST_NAME_ERROR" = "Please provide your last name.";
+"REGISTER_CONSENT_ERROR" = "Please agree to the terms";
+"REGISTER_OR_LABEL" = "OR";
+"REGISTER_FACEBOOK_BUTTON" = "Register with Facebook";
+"REGISTER_GOOGLE_BUTTON" = "Register with Google";
+"REGISTER_EMAIL_BUTTON" = "Register with Email";
+"REGISTER_EXISTING_MEMBER_LABEL" = "Already a member?";
+"REGISTER_LOGIN_BUTTON" = "LOG IN";
+"REGISTER_NEXT_BUTTON" = "NEXT";
+"REGISTER_PASSWORD" = "Create Password*";
+"REGISTER_PASSWORD_CONFIRM" = "Re-enter Password*";
+"REGISTER_CONFIRMATION_TITLE" = "Hello, %@!";
+"REGISTER_CONFIRMATION_MESSAGE" = "You now have access to exclusive offers and promotions, plus sale alerts for your favorite stores.";
+"REGISTER_CONFIRMATION_DONE" = "DONE";
+"REGISTER_EMAIL_EXISTS_ERROR" = "This email is already registered with GGP Malls. Please log in with your existing account.";
+"REGISTER_SWEEPSTAKES_DESCRIPTION" = "Register now to enter the GGP Malls sweepstakes for a chance to win a $1,000 shopping spree.";
+"REGISTER_SWEEPSTAKES_VIEW" = "View";
+"REGISTER_SWEEPSTAKES_TERMS" = "Terms and Conditions";
+"REGISTER_SWEEPSTAKES_TERMS_LINK" = "http://bit.ly/app-sweeps";
+"REGISTER_SWEEPSTAKES_ENTER" = "Yes, enter me in the GGP Malls Sweepstakes. View Terms and Conditions.";
+"REGISTER_SWEEPSTAKES_ALERT_TITLE" = "Success!";
+"REGISTER_SWEEPSTAKES_ALERT_CONFIRMATION" = "Congratulations, you've been entered to win a shopping spree at your local GGP mall in the GGP Malls Sweepstakes.";
+"REGISTER_SWEEPSTAKES_ALERT_CLOSE" = "Close";
+
+// Date Strings
+"DATE_NOW_STRING" = "NOW";
+"DATE_ONGOING_STRING" = "ONGOING";
+"DATE_TODAY_STRING" = "TODAY";
+
+//Preferences
+"PREFERENCES_TITLE" = "ACCOUNT";
+"PREFERENCES_HEADER" = "Preferences";
+"PREFERENCES_EMAIL" = "Send me email communications";
+"PREFERENCES_SMS" = "Send me text message alerts";
+"PREFERENCES_PHONE_LABEL" = "Mobile Phone*";
+"PREFERENCES_DISCLAIMER" = "*Message and data rates may apply. To stop messages at any time, text STOP to 50304. For help at any time, text HELP to 50304. You will receive up to 8 messages a month. Consent is not a condition of purchase. Autodialed messages will be sent to the number provided. Carriers that support this program: Alltel, AT&T, Boost, Cellular One, Cellular South, Cincinnati Bell, Sprint, T-Mobile, U.S. Cellular, Verizon Wireless, Virgin Mobile, Bluegrass, Centennial Wireless, ECIT, EKN, Immix, Inland Cellular Illinois Valley Cellular, Revol, West Central Wireless";
+"PREFERENCES_SAVE" = "SAVE";
+"PREFERENCES_LOGOUT" = "Log Out";
+"PREFERENCES_SAVE_SUCCESS_TITLE" = "Success";
+"PREFERENCES_SAVE_SUCCESS_MESSAGE" = "You have succesfully updated your communication preferences.";
+"PREFERENCES_OK" = "OK";
+
+// Subscription Details
+"SUBSCRIPTION_DETAIL_MOST_OFTEN" = "Which mall would you like to hear from most often?";
+"SUBSCRIPTION_DETAIL_SINGLE_MALL" = "You are currently subscribed to messages from %@.";
+"SUBSCRIPTION_DETAIL_MULTIPLE_MALLS" = "You are currently subscribed to receive communications from more than one mall.";
+"SUBSCRIPTION_DETAIL_NEW_MALL_UPDATE" = "To receive updates from %@, please visit the website.";
+
+//Register Preferences
+"REGISTER_PREFERENCES_HEADER" = "Preferences";
+"REGISTER_PREFERENCES_DONE" = "CREATE ACCOUNT";
+"REGISTER_PREFERENCES_CONSENT_ERROR" = "Please agree to the terms";
+
+//Form Field
+"FORM_FIELD_SHOW" = "SHOW";
+"FORM_FIELD_HIDE" = "HIDE";
+"FORM_FIELD_EMPTY_PASSWORD_ERROR" = "Please enter your password.";
+"FORM_FIELD_EMPTY_CONFIRM_PASSWORD_ERROR" = "Please re-enter your password.";
+"FORM_FIELD_PASSWORD_MISMATCH_ERROR" = "Passwords must match.";
+"FORM_FIELD_PASSWORD_LENGTH_INVALID_ERROR" = "Password must be at least 8 characters.";
+"FORM_FIELD_INVALID_EMAIL_ERROR" = "Please enter a valid email address.";
+"FORM_FIELD_EMPTY_EMAIL_ERROR" = "Please provide your email.";
+"FORM_FIELD_PHONE_ERROR_EMPTY" = "Please provide a phone number.";
+"FORM_FIELD_PHONE_ERROR_INVALID" = "Please provide a valid phone number.";
+"FORM_FIELD_TOOLBAR_DONE" = "Done";
+"FORM_FIELD_TOOLBAR_CLEAR" = "Clear";
+"FORM_FIELD_ZIPCODE_INVALID" = "Please enter a valid zip code.";
+
+//Reset Password
+"RESET_PASSWORD_TITLE" = "RESET PASSWORD";
+"RESET_PASSWORD_DESCRIPTION" = "Please enter your email address and we will send you a link to reset your password.";
+"RESET_PASSWORD_SUBMIT" = "SUBMIT";
+"RESET_PASSWORD_NO_EMAIL_ERROR" = "That email is not associated with an existing account. Please register now.";
+"RESET_PASSWORD_EMAIL_PLACEHOLDER" = "Email";
+"RESET_PASSWORD_EMAIL_SENT_ALERT_TITLE" = "Email Sent!";
+"RESET_PASSWORD_EMAIL_SENT_ALERT_MESSAGE" = "We've sent an email with instructions on how to reset your password.\n\n If you don't receive instructions within a few minutes, check your spam folder.";
+"RESET_PASSWORD_ACTION_OK" = "OK THANKS";
+
+//Change Password
+"CHANGE_PASSWORD_TITLE" = "CHANGE PASSWORD";
+"CHANGE_PASSWORD_OLD_PASSWORD" = "Old Password";
+"CHANGE_PASSWORD_NEW_PASSWORD" = "New Password";
+"CHANGE_PASSWORD_REENTER_NEW_PASSWORD" = "Re-enter New Password";
+"CHANGE_PASSWORD_UPDATE" = "Update";
+"CHANGE_PASSWORD_ERROR_NOT_RECOGNIZED" = "Password not recognized.";
+"CHANGE_PASSWORD_SUCCESS" = "You have successfully changed your password.";
+
+//Social Share
+"SHARE_SALE_URL" = "%@/en/shopping/sales/sale-%ld.html";
+"SHARE_EVENT_URL" = "%@/en/events/event-%ld.html";
+"SHARE_MOVIE_URL" = "%@/en/movies/movie-%ld.html";
+"SHARE_SALE_EMAIL_BODY" = "Check out this sale from %@ at %@. \n%@";
+"SHARE_EVENT_EMAIL_BODY" = "Check out this event at %@ in %@. \n%@";
+"SHARE_MOVIE_EMAIL_BODY" = "Check out this movie at %@ in %@. \n%@";
+"SHARE_EMAIL_FOOTER" = "<html><body><br><br><a href=\"https://itunes.apple.com/us/app/ggp-malls/id400510894?mt=8\">Sent with GGP Malls iPhone App</a></body><html>";
+
+//User Account
+"USER_ACCOUNT_TITLE" = "ACCOUNT";
+"USER_ACCOUNT_MANAGE_FAVORITES" = "Manage Favorites";
+"USER_ACCOUNT_MY_INFO" = "My Information";
+"USER_ACCOUNT_PREFERENCES" = "Communication Preferences";
+"USER_ACCOUNT_CHANGE_PASSWORD" = "Change Password";
+"USER_ACCOUNT_LOGOUT" = "Log Out";
+"USER_ACCOUNT_GREETING" = "Hello, %@!";
+
+//User Information
+"USER_INFO_TITLE" = "MY INFORMATION";
+"USER_INFO_FIRST_NAME_PLACEHOLDER" = "First Name";
+"USER_INFO_LAST_NAME_PLACEHOLDER" = "Last Name";
+"USER_INFO_EMAIL_PLACEHOLDER" = "Email";
+"USER_INFO_GENDER_PLACEHOLDER" = "Gender";
+"USER_INFO_BIRTHDAY_PLACEHOLDER" = "Birthday";
+"USER_INFO_ZIPCODE_PLACEHOLDER" = "Zip Code";
+"USER_INFO_ACCOUNT_DISCLAIMER_LABEL" = "This is the login for your GGP Malls account.";
+"USER_INFO_DISCLAIMER_LABEL" = "Your gender, birthday, and location may have been pre-populated based on the information you have chosen to share with us via social registration.";
+"USER_INFO_DELETE_ACCOUNT_HEADING" = "Delete Account";
+"USER_INFO_DELETE_ACCOUNT_BODY" = "To delete your account, please visit your account profile on %@'s website.";
+"USER_INFO_GENDER_DEFAULT" = "Select Gender";
+"USER_INFO_GENDER_FEMALE" = "Female";
+"USER_INFO_GENDER_MALE" = "Male";
+"USER_INFO_GENDER_UNSPECIFIED" = "Unspecified";
+"USER_INFO_UPDATE_SUCCESS" = "You have successfully updated your information.";
+"USER_INFO_EMAIL_EXISTS_ERROR" = "This email is already registered with GGP Malls. Please enter another email.";
+
+//Account preferences
+"ACCOUNT_PREFERENCES_TITLE" = "COMMUNICATION PREFERENCES";
+"ACCOUNT_PREFERENCES_HEADING" = "My preferences for %@";
+"ACCOUNT_PREFERENCES_SUCCESS" = "You have successfully updated your communication preferences.";
+
+//Preferences Toggle
+"PREFERENCES_TOGGLE_EMAIL_LABEL" = "Send me email communications";
+"PREFERENCES_TOGGLE_EMAIL_PLACEHOLDER" = "Email";
+"PREFERENCES_TOGGLE_SMS_LABEL" = "Send me text message alerts";
+"PREFERENCES_TOGGLE_SMS_PLACEHOLDER" = "Mobile Phone";
+"PREFERENCES_TOGGLE_SMS_DISCLAIMER" = "Message and data rates may apply. To stop messages at any time, text STOP to 50304. For help at any time, text HELP to50304. You will receive up to 8 messages a month. Consent is not a condition of purchase. Autodialed messages will be sent to the number provided. Carriers that support this program: Alltel, AT&T, Boost, Cellular One, Cellular South, Cincinnati Bell, Sprint, T-Mobile, U.S. Cellular, Verizon Wireless, Virgin Mobile, Bluegrass, Centennial Wireless, ECIT, EKN, Immix, Inland Cellular Illinois Valley Cellular, Revol, West Central Wireless.";
+
+//Filter Messages - Directory
+"DIRECTORY_NO_FAVORITES_HEADLINE" = "You don’t have any favorites at this mall.";
+"DIRECTORY_NO_FAVORITES_BODY" = "To save your favorites, select any store or restaurant in the Directory and tap the heart icon.";
+"DIRECTORY_UNAUTHENTICATED_HEADLINE" = "Want to keep track of your favorite stores and restaurants?";
+"DIRECTORY_UNAUTHENTICATED_BODY" = "Join GGP Malls to add favorites and enjoy a more customized experience.";
+
+//Filter Messages - Shopping
+"SHOPPING_NO_SALES_HEADLINE" = "There are currently no sales at your favorite stores.";
+"SHOPPING_NO_FAVORITES_HEADLINE" = "You don’t have any favorites at this mall.";
+"SHOPPING_NO_FAVORITES_BODY" = "Select any store or restaurant in the directory, then look for the \"Add to Favorites\" button.";
+"SHOPPING_UNAUTHENTICATED_HEADLINE" = "Want to view sales from your favorite stores?";
+"SHOPPING_UNAUTHENTICATED_BODY" = "Join GGP Malls to add favorites and enjoy a more customized experience.";
+
+//App Store
+"APP_STORE_LINK" = "https://itunes.apple.com/us/app/ggp-malls/id400510894?mt=8";
+
+//Feedback
+"FEEDBACK_INITIAL_QUESTION_TITLE" = "Are you enjoying your app experience?";
+"FEEDBACK_NEGATIVE_TITLE" = "We're sorry.";
+"FEEDBACK_NEGATIVE_MESSAGE" = "If you have a second, we'd love to learn how we can make your experience better.";
+"FEEDBACK_POSITIVE_TITLE" = "Thank you!";
+"FEEDBACK_POSITIVE_MESSAGE" = "We really appreciate the feedback. Would you mind taking a moment to rate the app?";
+"FEEDBACK_BUTTON_YES" = "Yes";
+"FEEDBACK_BUTTON_NO" = "No";
+"FEEDBACK_BUTTON_GIVE_FEEDBACK" = "Give Feedback";
+"FEEDBACK_BUTTON_NO_THANKS" = "No, Thanks";
+"FEEDBACK_BUTTON_RATE_NOW" = "Rate Now";
+"FEEDBACK_BUTTON_REMIND" = "Remind Me Later";
+
+//Tenant
+"TENANT_TEMPORARILY_CLOSED" = "(Temporarily Closed)";
+
+//Just For You
+"JUST_FOR_YOU_TITLE" = "JUST FOR YOU";
+"JUST_FOR_YOU_UP_TO_DATE" = "You're all up to date";
+"JUST_FOR_YOU_ADD_FAVORITES" = "Choose more favorites";
+
+"CHOOSE_FAVORITES_TITLE_NO_FAVORITES" = "Choose your favorite stores and restaurants to see your personalized Just For You feed";
+"CHOOSE_FAVORITES_BUTTON_NO_FAVORITES" = "CHOOSE FAVORITES";
+"CHOOSE_FAVORITES_TITLE_NO_SALES" = "There are currently no sales at your favorite stores and/or retailers.";
+"CHOOSE_FAVORITES_BUTTON_NO_SALES" = "CHOOSE MORE FAVORITES";
+
+//Featured
+"FEATURED_TITLE" = "FEATURED";
+"FEATURED_CALL_TO_REGISTER_TITLE" = "Want to keep track of your favorite stores and restaurants?";
+"FEATURED_CALL_TO_REGISTER_DESCRIPTION" = "Join GGP Malls to add favorites and enjoy a more customized experience.";
+"FEATURED_CREATE_ACCOUNT" = "CREATE AN ACCOUNT";
+
+//More
+"MORE_TITLE" = "MORE";
+
+//Onboarding
+"ONBOARDING_CANCEL" = "Cancel";
+"ONBOARDING_LOADING_TITLE" = "WELCOME!";
+"ONBOARDING_LOADING_INFO_LABEL" = "GGP Malls puts your local mall in the palm of your hand.";
+
+"ONBOARDING_HELLO_TITLE" = "HELLO!";
+"ONBOARDING_WELCOME_QUESTION" = "Which mall would you like to explore?";
+"ONBOARDING_SEARCH_LOCATION" = "SEARCH BY LOCATION";
+"ONBOARDING_SEARCH_NAME" = "SEARCH BY NAME";
+"ONBOARDING_OR_LABEL" = "or";
+"ONBOARDING_DISCLAIMER_LABEL" = "(Don't worry, you can change your malls later)";
+"ONBOARDING_CANCEL" = "Cancel";
+"ONBOARDING_WELCOME_LABEL" = "Welcome to %@,\n %@";
+
+//Benefits
+"BENEFITS_SHOPPING_TITLE" = "SHOPPING";
+"BENEFITS_SHOPPING_DESCRIPTION" = "Check out the latest sales and see what's new in stores.";
+"BENEFITS_PARKING_TITLE" = "PARKING";
+"BENEFITS_PARKING_DESCRIPTION" = "Find your way back to your parking spot with drop-pin parking reminders.";
+"BENEFITS_WAYFINDING_TITLE" = "WAYFINDING";
+"BENEFITS_WAYFINDING_DESCRIPTION" = "Navigate the mall from the palm of your hand with simple Guide Me directions.";
+"BENEFITS_JFY_TITLE" = "JUST FOR YOU";
+"BENEFITS_JFY_DESCRIPTION" = "Enjoy personalized recommendations based on your favorite stores & restaurants.";
+"BENEFITS_SKIP" = "Skip";
+"BENEFITS_CREATE_ACCOUNT" = "CREATE ACCOUNT";
+"ACCOUNT_ALREADY_MEMBER" = "Already a member?";
+"ACCOUNT_LOGIN" = "Log In";
+
+//Search
+"SEARCH_LOCATION_TITLE" = "SEARCH BY LOCATION";
+"SEARCH_LOCATION_MY_LOCATION_PLACEHOLDER" = "My Location";
+"SEARCH_LOCATION_DEFAULT_PLACEHOLDER" = "Enter City, State or ZIP";
+"SEARCH_LOCATION_NO_RESULTS" = "We're sorry, there are no GGP malls within 50 miles of your search.";
+"SEARCH_LOCATION_NO_RESULTS_BUTTON" = "Search by Name";
+
+"SEARCH_NAME_TITLE" = "SEARCH BY NAME";
+"SEARCH_NAME_INPUT_PLACEHOLDER" = "Enter mall name";
+"SEARCH_NAME_ALL_MALLS" = "All Malls";
+"SEARCH_NAME_NO_RESULTS" = "We're sorry, there are no GGP malls matching your search.";
+"SEARCH_NAME_NO_RESULTS_BUTTON" = "Search by Location";
+
+//Choose Favorites
+"CHOOSE_FAVORITES_TITLE" = "CHOOSE FAVORITES";
+"CHOOSE_FAVORITES_SEARCHBAR_PLACEHOLDER" = "Enter Store Name";
+
+//Amenities
+"MAP_AMENITY_RESTROOM" = "Restroom";
+"MAP_AMENITY_ATM" = "ATM";
+"MAP_AMENITY_MANAGEMENT" = "Management";
+"MAP_AMENITY_KIOSK" = "Kiosk";
+
+//Post Options
+"POST_OPTIONS_SHARE" = "Share";
+"POST_OPTIONS_GUIDE_ME" = "Guide Me";
+"POST_OPTIONS_STORE_DETAILS" = "Store Details";
+"POST_OPTIONS_CANCEL" = "Cancel";

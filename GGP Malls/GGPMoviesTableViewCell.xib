@@ -1,0 +1,82 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="11201" systemVersion="16A323" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" colorMatched="YES">
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="11161"/>
+        <capability name="Aspect ratio constraints" minToolsVersion="5.1"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner"/>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <tableViewCell contentMode="scaleToFill" selectionStyle="default" indentationWidth="0.0" rowHeight="184" id="KGk-i7-Jjw" customClass="GGPMoviesTableViewCell">
+            <rect key="frame" x="0.0" y="0.0" width="401" height="169"/>
+            <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+            <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" tableViewCell="KGk-i7-Jjw" id="H2p-sc-9uM">
+                <frame key="frameInset" width="401" height="168"/>
+                <autoresizingMask key="autoresizingMask"/>
+                <subviews>
+                    <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="nJx-qr-XO4">
+                        <subviews>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" translatesAutoresizingMaskIntoConstraints="NO" id="2IQ-lT-TvL">
+                                <constraints>
+                                    <constraint firstAttribute="width" secondItem="2IQ-lT-TvL" secondAttribute="height" multiplier="5:8" id="2kW-aG-cl0"/>
+                                    <constraint firstAttribute="width" constant="75" id="NYs-5B-WDt"/>
+                                </constraints>
+                            </imageView>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text=" " lineBreakMode="wordWrap" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="tJ5-pb-b72">
+                                <fontDescription key="fontDescription" type="system" pointSize="13"/>
+                                <color key="textColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text=" " lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="nQh-2B-Vnt" userLabel="Movie Details Label">
+                                <fontDescription key="fontDescription" type="system" pointSize="12"/>
+                                <color key="textColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" translatesAutoresizingMaskIntoConstraints="NO" id="fbM-KA-mrl" customClass="GGPShowtimeStackView"/>
+                        </subviews>
+                        <constraints>
+                            <constraint firstItem="nQh-2B-Vnt" firstAttribute="trailing" secondItem="tJ5-pb-b72" secondAttribute="trailing" id="2T0-8r-4VQ"/>
+                            <constraint firstAttribute="trailing" secondItem="tJ5-pb-b72" secondAttribute="trailing" constant="15" id="5BC-tT-gCd"/>
+                            <constraint firstItem="nQh-2B-Vnt" firstAttribute="leading" secondItem="tJ5-pb-b72" secondAttribute="leading" id="JtQ-OK-YMx"/>
+                            <constraint firstItem="nQh-2B-Vnt" firstAttribute="top" secondItem="tJ5-pb-b72" secondAttribute="bottom" id="Mfk-88-Nww"/>
+                            <constraint firstItem="tJ5-pb-b72" firstAttribute="top" secondItem="nJx-qr-XO4" secondAttribute="top" constant="12" id="OJK-Zk-kLc"/>
+                            <constraint firstItem="tJ5-pb-b72" firstAttribute="leading" secondItem="2IQ-lT-TvL" secondAttribute="trailing" constant="13" id="RD4-x0-F1Y"/>
+                            <constraint firstAttribute="bottom" secondItem="fbM-KA-mrl" secondAttribute="bottom" constant="15" id="ULt-D1-Oi0"/>
+                            <constraint firstItem="fbM-KA-mrl" firstAttribute="leading" secondItem="nQh-2B-Vnt" secondAttribute="leading" id="Y6y-dD-Mni"/>
+                            <constraint firstItem="tJ5-pb-b72" firstAttribute="top" secondItem="2IQ-lT-TvL" secondAttribute="top" id="YF7-wM-Us3"/>
+                            <constraint firstItem="fbM-KA-mrl" firstAttribute="trailing" secondItem="nQh-2B-Vnt" secondAttribute="trailing" id="Yvj-Wn-nxv"/>
+                            <constraint firstAttribute="bottom" relation="greaterThanOrEqual" secondItem="2IQ-lT-TvL" secondAttribute="bottom" constant="15" id="bO4-Va-0B8"/>
+                            <constraint firstItem="fbM-KA-mrl" firstAttribute="top" secondItem="nQh-2B-Vnt" secondAttribute="bottom" constant="8" id="fRz-xb-XVZ"/>
+                            <constraint firstItem="2IQ-lT-TvL" firstAttribute="leading" secondItem="nJx-qr-XO4" secondAttribute="leading" constant="15" id="olk-Lq-6L3"/>
+                            <constraint firstItem="2IQ-lT-TvL" firstAttribute="centerY" secondItem="nJx-qr-XO4" secondAttribute="centerY" id="wl3-al-Yop"/>
+                            <constraint firstItem="2IQ-lT-TvL" firstAttribute="top" secondItem="nJx-qr-XO4" secondAttribute="top" constant="15" id="xBy-Vz-Fgp"/>
+                        </constraints>
+                        <variation key="default">
+                            <mask key="constraints">
+                                <exclude reference="wl3-al-Yop"/>
+                                <exclude reference="OJK-Zk-kLc"/>
+                            </mask>
+                        </variation>
+                    </view>
+                </subviews>
+                <constraints>
+                    <constraint firstAttribute="bottom" secondItem="nJx-qr-XO4" secondAttribute="bottom" constant="8" id="01g-u0-2sn"/>
+                    <constraint firstAttribute="trailing" secondItem="nJx-qr-XO4" secondAttribute="trailing" constant="16" id="J0z-4D-KQb"/>
+                    <constraint firstItem="nJx-qr-XO4" firstAttribute="leading" secondItem="H2p-sc-9uM" secondAttribute="leading" constant="16" id="bKj-mI-KOm"/>
+                    <constraint firstItem="nJx-qr-XO4" firstAttribute="top" secondItem="H2p-sc-9uM" secondAttribute="top" constant="8" id="jj9-yU-8bL"/>
+                </constraints>
+            </tableViewCellContentView>
+            <inset key="separatorInset" minX="0.0" minY="0.0" maxX="0.0" maxY="0.0"/>
+            <connections>
+                <outlet property="movieCardView" destination="nJx-qr-XO4" id="ItC-ZH-h8x"/>
+                <outlet property="movieDetailsLabel" destination="nQh-2B-Vnt" id="Eim-Sa-9dk"/>
+                <outlet property="movieNameLabel" destination="tJ5-pb-b72" id="QKZ-W3-2J2"/>
+                <outlet property="moviePosterImageView" destination="2IQ-lT-TvL" id="7gy-er-mLb"/>
+                <outlet property="showtimeStackView" destination="fbM-KA-mrl" id="30P-Rc-N54"/>
+            </connections>
+            <point key="canvasLocation" x="143.5" y="271.5"/>
+        </tableViewCell>
+    </objects>
+</document>

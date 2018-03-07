@@ -1,0 +1,5 @@
+The JMap.framework is embedded in the GGP Malls target from /JMapSDK/JMap.framework
+
+The file itself is ignored from git. It is copied to that location from a Build Phase
+build script. The script copies from JMap/Prod if the configuration is Release and from
+JMapSDK/Dev for all other configurations.

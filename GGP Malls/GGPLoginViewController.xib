@@ -1,0 +1,148 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="11201" systemVersion="16A323" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" colorMatched="YES">
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="11161"/>
+        <capability name="Aspect ratio constraints" minToolsVersion="5.1"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner" customClass="GGPLoginViewController">
+            <connections>
+                <outlet property="backgroundImageView" destination="OeS-VZ-iwc" id="7xf-0C-FhH"/>
+                <outlet property="emailButton" destination="QqY-u9-n1S" id="5Xp-h4-Emn"/>
+                <outlet property="facebookButton" destination="Ulj-IS-Tpa" id="9Zb-K1-cdt"/>
+                <outlet property="facebookContainer" destination="dTu-xS-qYW" id="2xa-XC-etA"/>
+                <outlet property="facebookContainerTopConstraint" destination="b7h-Ue-Sdc" id="ynp-XC-XoX"/>
+                <outlet property="facebookImageView" destination="HVt-jS-N37" id="uTj-Ay-2Sh"/>
+                <outlet property="facebookLabel" destination="YtG-mV-pT0" id="bhA-2L-cEc"/>
+                <outlet property="googleButton" destination="aJe-EI-7jB" id="CUB-C7-Ekt"/>
+                <outlet property="googleContainer" destination="N1u-xm-JqR" id="KB9-FF-HTg"/>
+                <outlet property="googleImageView" destination="1Mx-sn-LeR" id="Grt-hc-1bE"/>
+                <outlet property="googleLabel" destination="RHX-z4-gz3" id="MFU-pW-ggB"/>
+                <outlet property="view" destination="i5M-Pr-FkT" id="sfx-zR-JGt"/>
+            </connections>
+        </placeholder>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <view clearsContextBeforeDrawing="NO" contentMode="scaleToFill" id="i5M-Pr-FkT">
+            <rect key="frame" x="0.0" y="0.0" width="320" height="568"/>
+            <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+            <subviews>
+                <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" translatesAutoresizingMaskIntoConstraints="NO" id="OeS-VZ-iwc"/>
+                <view clipsSubviews="YES" contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="dTu-xS-qYW">
+                    <subviews>
+                        <imageView userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" translatesAutoresizingMaskIntoConstraints="NO" id="HVt-jS-N37">
+                            <constraints>
+                                <constraint firstAttribute="width" secondItem="HVt-jS-N37" secondAttribute="height" multiplier="1:1" id="Mfe-ya-Ka9"/>
+                            </constraints>
+                        </imageView>
+                        <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Facebook" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="YtG-mV-pT0">
+                            <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                            <color key="textColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                            <nil key="highlightedColor"/>
+                        </label>
+                        <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Ulj-IS-Tpa">
+                            <connections>
+                                <action selector="facebookTapped:" destination="-1" eventType="touchUpInside" id="hGO-dF-usX"/>
+                            </connections>
+                        </button>
+                    </subviews>
+                    <color key="backgroundColor" red="0.0" green="0.47843137250000001" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                    <constraints>
+                        <constraint firstAttribute="height" constant="50" id="15Q-fx-4xl"/>
+                        <constraint firstAttribute="bottom" secondItem="Ulj-IS-Tpa" secondAttribute="bottom" id="1z9-Fy-B8T"/>
+                        <constraint firstItem="YtG-mV-pT0" firstAttribute="leading" secondItem="HVt-jS-N37" secondAttribute="trailing" constant="10" id="2xz-TM-mdD"/>
+                        <constraint firstItem="YtG-mV-pT0" firstAttribute="centerY" secondItem="dTu-xS-qYW" secondAttribute="centerY" id="Hm8-0h-Bu7"/>
+                        <constraint firstItem="HVt-jS-N37" firstAttribute="top" secondItem="dTu-xS-qYW" secondAttribute="top" constant="10" id="KhO-j7-b9x"/>
+                        <constraint firstAttribute="bottom" secondItem="HVt-jS-N37" secondAttribute="bottom" constant="10" id="Mo6-d9-sb1"/>
+                        <constraint firstItem="Ulj-IS-Tpa" firstAttribute="leading" secondItem="dTu-xS-qYW" secondAttribute="leading" id="S4v-9f-pxx"/>
+                        <constraint firstItem="YtG-mV-pT0" firstAttribute="centerX" secondItem="dTu-xS-qYW" secondAttribute="centerX" id="UCX-KB-eVs"/>
+                        <constraint firstAttribute="trailing" secondItem="Ulj-IS-Tpa" secondAttribute="trailing" id="Yg6-cZ-TXd"/>
+                        <constraint firstItem="Ulj-IS-Tpa" firstAttribute="top" secondItem="dTu-xS-qYW" secondAttribute="top" id="aWw-6x-RCW"/>
+                        <constraint firstItem="YtG-mV-pT0" firstAttribute="leading" secondItem="HVt-jS-N37" secondAttribute="trailing" constant="8" id="g8Y-p1-YFE"/>
+                    </constraints>
+                    <variation key="default">
+                        <mask key="constraints">
+                            <exclude reference="2xz-TM-mdD"/>
+                        </mask>
+                    </variation>
+                </view>
+                <view clipsSubviews="YES" contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="N1u-xm-JqR">
+                    <subviews>
+                        <imageView userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" translatesAutoresizingMaskIntoConstraints="NO" id="1Mx-sn-LeR">
+                            <constraints>
+                                <constraint firstAttribute="width" secondItem="1Mx-sn-LeR" secondAttribute="height" multiplier="1:1" id="g3g-CX-4EZ"/>
+                            </constraints>
+                        </imageView>
+                        <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Google+" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="RHX-z4-gz3">
+                            <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                            <color key="textColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                            <nil key="highlightedColor"/>
+                        </label>
+                        <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="aJe-EI-7jB">
+                            <connections>
+                                <action selector="googleTapped:" destination="-1" eventType="touchUpInside" id="bOw-PG-i6B"/>
+                            </connections>
+                        </button>
+                    </subviews>
+                    <color key="backgroundColor" red="1" green="0.0" blue="0.0" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                    <constraints>
+                        <constraint firstItem="1Mx-sn-LeR" firstAttribute="top" secondItem="N1u-xm-JqR" secondAttribute="top" constant="10" id="6gb-hA-c8O"/>
+                        <constraint firstItem="RHX-z4-gz3" firstAttribute="leading" secondItem="1Mx-sn-LeR" secondAttribute="trailing" constant="10" id="7tM-b3-svn"/>
+                        <constraint firstAttribute="trailing" secondItem="aJe-EI-7jB" secondAttribute="trailing" id="ClV-T5-zBK"/>
+                        <constraint firstItem="aJe-EI-7jB" firstAttribute="leading" secondItem="N1u-xm-JqR" secondAttribute="leading" id="CqS-C3-0ZJ"/>
+                        <constraint firstItem="1Mx-sn-LeR" firstAttribute="height" secondItem="N1u-xm-JqR" secondAttribute="height" id="Dx7-0w-fB5"/>
+                        <constraint firstItem="1Mx-sn-LeR" firstAttribute="leading" secondItem="N1u-xm-JqR" secondAttribute="leading" constant="15" id="JLj-D6-dpq"/>
+                        <constraint firstItem="RHX-z4-gz3" firstAttribute="leading" secondItem="1Mx-sn-LeR" secondAttribute="trailing" constant="8" id="K9P-nU-9qJ"/>
+                        <constraint firstAttribute="bottom" secondItem="1Mx-sn-LeR" secondAttribute="bottom" constant="10" id="V2I-yU-V1f"/>
+                        <constraint firstItem="RHX-z4-gz3" firstAttribute="centerY" secondItem="N1u-xm-JqR" secondAttribute="centerY" id="XhL-Ax-bcN"/>
+                        <constraint firstItem="aJe-EI-7jB" firstAttribute="top" secondItem="N1u-xm-JqR" secondAttribute="top" id="ZSS-6V-n5A"/>
+                        <constraint firstAttribute="bottom" secondItem="aJe-EI-7jB" secondAttribute="bottom" id="fnZ-Wl-3Rw"/>
+                        <constraint firstItem="RHX-z4-gz3" firstAttribute="centerX" secondItem="N1u-xm-JqR" secondAttribute="centerX" id="gOd-ep-87C"/>
+                        <constraint firstAttribute="height" constant="50" id="u4W-P4-aM2"/>
+                        <constraint firstItem="RHX-z4-gz3" firstAttribute="centerX" secondItem="N1u-xm-JqR" secondAttribute="centerX" id="wbm-36-Ne2"/>
+                    </constraints>
+                    <variation key="default">
+                        <mask key="constraints">
+                            <exclude reference="Dx7-0w-fB5"/>
+                            <exclude reference="JLj-D6-dpq"/>
+                            <exclude reference="7tM-b3-svn"/>
+                            <exclude reference="wbm-36-Ne2"/>
+                        </mask>
+                    </variation>
+                </view>
+                <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="QqY-u9-n1S">
+                    <constraints>
+                        <constraint firstAttribute="height" constant="50" id="EXX-sO-BQE"/>
+                    </constraints>
+                    <state key="normal" title="Button"/>
+                    <connections>
+                        <action selector="emailTapped:" destination="-1" eventType="touchUpInside" id="SYd-mM-sZi"/>
+                    </connections>
+                </button>
+            </subviews>
+            <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+            <constraints>
+                <constraint firstItem="OeS-VZ-iwc" firstAttribute="top" secondItem="i5M-Pr-FkT" secondAttribute="top" id="AES-DI-uhM"/>
+                <constraint firstAttribute="trailing" secondItem="dTu-xS-qYW" secondAttribute="trailing" constant="20" id="CHs-io-hVc"/>
+                <constraint firstItem="RHX-z4-gz3" firstAttribute="leading" secondItem="YtG-mV-pT0" secondAttribute="leading" id="Ih5-jL-XKl"/>
+                <constraint firstItem="QqY-u9-n1S" firstAttribute="top" secondItem="N1u-xm-JqR" secondAttribute="bottom" constant="20" id="Psl-4R-CDT"/>
+                <constraint firstItem="QqY-u9-n1S" firstAttribute="leading" secondItem="i5M-Pr-FkT" secondAttribute="leading" constant="20" id="Rtm-Ph-lUH"/>
+                <constraint firstAttribute="trailing" secondItem="OeS-VZ-iwc" secondAttribute="trailing" id="WX3-La-Gyz"/>
+                <constraint firstItem="OeS-VZ-iwc" firstAttribute="leading" secondItem="i5M-Pr-FkT" secondAttribute="leading" id="asE-J0-M1L"/>
+                <constraint firstItem="dTu-xS-qYW" firstAttribute="top" secondItem="i5M-Pr-FkT" secondAttribute="top" constant="24" id="b7h-Ue-Sdc"/>
+                <constraint firstItem="dTu-xS-qYW" firstAttribute="leading" secondItem="i5M-Pr-FkT" secondAttribute="leading" constant="20" id="ndn-CA-Rcy"/>
+                <constraint firstItem="N1u-xm-JqR" firstAttribute="top" secondItem="dTu-xS-qYW" secondAttribute="bottom" constant="20" id="p8M-lZ-Fep"/>
+                <constraint firstAttribute="trailing" secondItem="QqY-u9-n1S" secondAttribute="trailing" constant="20" id="qbo-tB-2ia"/>
+                <constraint firstItem="N1u-xm-JqR" firstAttribute="leading" secondItem="i5M-Pr-FkT" secondAttribute="leading" constant="20" id="roj-sb-itM"/>
+                <constraint firstAttribute="trailing" secondItem="N1u-xm-JqR" secondAttribute="trailing" constant="20" id="sXr-zf-AME"/>
+                <constraint firstAttribute="bottom" secondItem="OeS-VZ-iwc" secondAttribute="bottom" id="wrs-eC-WQ8"/>
+            </constraints>
+            <variation key="default">
+                <mask key="constraints">
+                    <exclude reference="Ih5-jL-XKl"/>
+                </mask>
+            </variation>
+        </view>
+    </objects>
+</document>

@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="11201" systemVersion="16A323" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" colorMatched="YES">
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="11201"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner" customClass="GGPWayfindingViewController">
+            <connections>
+                <outlet property="detailCardContainer" destination="8iW-CB-JIM" id="O65-Q6-9PG"/>
+                <outlet property="detailCardContainerBottomConstraint" destination="WJV-2t-XlL" id="06Y-0r-TBh"/>
+                <outlet property="mapContainer" destination="GgT-Dp-tEn" id="HoM-rx-orQ"/>
+                <outlet property="searchContainer" destination="AmT-VA-7o5" id="YeB-L8-igb"/>
+                <outlet property="view" destination="i5M-Pr-FkT" id="sfx-zR-JGt"/>
+            </connections>
+        </placeholder>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <view clearsContextBeforeDrawing="NO" contentMode="scaleToFill" id="i5M-Pr-FkT">
+            <rect key="frame" x="0.0" y="0.0" width="320" height="568"/>
+            <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+            <subviews>
+                <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="AmT-VA-7o5">
+                    <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                    <constraints>
+                        <constraint firstAttribute="height" constant="100" placeholder="YES" id="Kxd-ck-2BK"/>
+                    </constraints>
+                </view>
+                <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="GgT-Dp-tEn">
+                    <color key="backgroundColor" red="0.0" green="0.0" blue="0.0" alpha="0.0" colorSpace="custom" customColorSpace="sRGB"/>
+                </view>
+                <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="8iW-CB-JIM">
+                    <color key="backgroundColor" red="0.66666666666666663" green="0.66666666666666663" blue="0.66666666666666663" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                    <constraints>
+                        <constraint firstAttribute="height" constant="90" id="wQl-Zf-zIG"/>
+                    </constraints>
+                </view>
+            </subviews>
+            <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+            <constraints>
+                <constraint firstAttribute="trailing" secondItem="8iW-CB-JIM" secondAttribute="trailing" id="0OD-Tq-82K"/>
+                <constraint firstAttribute="trailing" secondItem="GgT-Dp-tEn" secondAttribute="trailing" id="3Pt-hH-D4b"/>
+                <constraint firstItem="8iW-CB-JIM" firstAttribute="leading" secondItem="i5M-Pr-FkT" secondAttribute="leading" id="9Kb-xM-Zec"/>
+                <constraint firstAttribute="bottom" secondItem="8iW-CB-JIM" secondAttribute="bottom" id="WJV-2t-XlL"/>
+                <constraint firstItem="GgT-Dp-tEn" firstAttribute="leading" secondItem="i5M-Pr-FkT" secondAttribute="leading" id="Zbj-ce-WRo"/>
+                <constraint firstItem="AmT-VA-7o5" firstAttribute="top" secondItem="i5M-Pr-FkT" secondAttribute="top" id="aJ3-tv-Chn"/>
+                <constraint firstItem="GgT-Dp-tEn" firstAttribute="top" secondItem="AmT-VA-7o5" secondAttribute="bottom" id="hM1-W0-Q3G"/>
+                <constraint firstItem="AmT-VA-7o5" firstAttribute="leading" secondItem="i5M-Pr-FkT" secondAttribute="leading" id="r9F-4y-8a9"/>
+                <constraint firstItem="8iW-CB-JIM" firstAttribute="top" secondItem="GgT-Dp-tEn" secondAttribute="bottom" constant="-25" id="rbo-mK-OIw"/>
+                <constraint firstAttribute="trailing" secondItem="AmT-VA-7o5" secondAttribute="trailing" id="xVr-tF-a4W"/>
+            </constraints>
+        </view>
+    </objects>
+</document>

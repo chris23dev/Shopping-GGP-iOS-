@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="10117" systemVersion="15F34" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES">
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="10085"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner"/>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <collectionViewCell opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" id="gTV-IL-0wX" customClass="GGPRibbonNavigationViewCell">
+            <rect key="frame" x="0.0" y="0.0" width="260" height="69"/>
+            <autoresizingMask key="autoresizingMask"/>
+            <view key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center">
+                <rect key="frame" x="0.0" y="0.0" width="260" height="69"/>
+                <subviews>
+                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Label" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="kgq-o6-gmo">
+                        <rect key="frame" x="0.0" y="0.0" width="260" height="69"/>
+                        <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="calibratedWhite"/>
+                        <constraints>
+                            <constraint firstAttribute="height" priority="999" constant="30" id="PrY-7I-qFV"/>
+                        </constraints>
+                        <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                        <color key="textColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
+                        <nil key="highlightedColor"/>
+                    </label>
+                    <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="z3e-pS-uOg">
+                        <rect key="frame" x="0.0" y="67" width="260" height="2"/>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                        <constraints>
+                            <constraint firstAttribute="height" constant="2" id="C6n-Ys-45M"/>
+                        </constraints>
+                    </view>
+                </subviews>
+                <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="calibratedWhite"/>
+            </view>
+            <constraints>
+                <constraint firstAttribute="trailing" secondItem="z3e-pS-uOg" secondAttribute="trailing" id="8Lf-IF-lRJ"/>
+                <constraint firstItem="kgq-o6-gmo" firstAttribute="centerX" secondItem="gTV-IL-0wX" secondAttribute="centerX" id="Aci-QT-fup"/>
+                <constraint firstAttribute="bottom" secondItem="z3e-pS-uOg" secondAttribute="bottom" id="EOi-Pj-5AF"/>
+                <constraint firstItem="kgq-o6-gmo" firstAttribute="leading" secondItem="gTV-IL-0wX" secondAttribute="leading" id="FPM-0w-x6K"/>
+                <constraint firstItem="z3e-pS-uOg" firstAttribute="leading" secondItem="gTV-IL-0wX" secondAttribute="leading" id="Mnh-OZ-Nud"/>
+                <constraint firstAttribute="trailing" secondItem="kgq-o6-gmo" secondAttribute="trailing" id="WJU-HE-f7e"/>
+                <constraint firstItem="kgq-o6-gmo" firstAttribute="top" secondItem="gTV-IL-0wX" secondAttribute="top" id="Y9x-7q-gOf"/>
+                <constraint firstAttribute="trailing" secondItem="kgq-o6-gmo" secondAttribute="trailing" id="cQJ-7d-kEI"/>
+                <constraint firstItem="kgq-o6-gmo" firstAttribute="leading" secondItem="gTV-IL-0wX" secondAttribute="leading" id="ktN-y5-Ary"/>
+                <constraint firstItem="z3e-pS-uOg" firstAttribute="top" secondItem="kgq-o6-gmo" secondAttribute="bottom" id="nAx-FX-35C"/>
+                <constraint firstAttribute="bottom" secondItem="kgq-o6-gmo" secondAttribute="bottom" id="ujZ-pV-qpb"/>
+            </constraints>
+            <size key="customSize" width="260" height="69"/>
+            <variation key="default">
+                <mask key="constraints">
+                    <exclude reference="Aci-QT-fup"/>
+                    <exclude reference="FPM-0w-x6K"/>
+                    <exclude reference="cQJ-7d-kEI"/>
+                    <exclude reference="nAx-FX-35C"/>
+                </mask>
+            </variation>
+            <connections>
+                <outlet property="selectedBar" destination="z3e-pS-uOg" id="chO-qH-jdF"/>
+                <outlet property="titleLabel" destination="kgq-o6-gmo" id="Fym-o7-gjy"/>
+            </connections>
+            <point key="canvasLocation" x="604" y="398.5"/>
+        </collectionViewCell>
+    </objects>
+</document>

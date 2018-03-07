@@ -1,0 +1,137 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="11201" systemVersion="15G1004" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" colorMatched="YES">
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="11161"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner" customClass="GGPPreferencesToggleViewController">
+            <connections>
+                <outlet property="emailCheckbox" destination="XjJ-zY-61G" id="eUU-Nh-Mlf"/>
+                <outlet property="emailLabel" destination="l2p-9n-rZg" id="YyQ-me-3Xc"/>
+                <outlet property="smsCheckbox" destination="pzO-90-JdF" id="0gf-AZ-Boe"/>
+                <outlet property="smsContainer" destination="Lir-tE-seK" id="Ud3-AW-58u"/>
+                <outlet property="smsDisclaimer" destination="OFo-To-jtV" id="BCn-Fp-R5f"/>
+                <outlet property="smsLabel" destination="Gd5-M0-M7o" id="lAM-lp-6B7"/>
+                <outlet property="view" destination="0om-RJ-htd" id="Ced-4v-01o"/>
+            </connections>
+        </placeholder>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <view clearsContextBeforeDrawing="NO" contentMode="scaleToFill" id="0om-RJ-htd">
+            <rect key="frame" x="0.0" y="0.0" width="600" height="245"/>
+            <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+            <subviews>
+                <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="fGT-gn-ngc" userLabel="email toggle row">
+                    <subviews>
+                        <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="l2p-9n-rZg">
+                            <constraints>
+                                <constraint firstAttribute="height" constant="20" placeholder="YES" id="df3-4j-51X"/>
+                            </constraints>
+                            <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                            <color key="textColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                            <nil key="highlightedColor"/>
+                        </label>
+                        <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="XjJ-zY-61G" customClass="GGPCheckboxButton">
+                            <constraints>
+                                <constraint firstAttribute="height" constant="30" id="YEc-r7-mk2"/>
+                                <constraint firstAttribute="width" constant="30" id="ZVt-2X-M4o"/>
+                            </constraints>
+                        </button>
+                    </subviews>
+                    <color key="backgroundColor" red="0.0" green="0.0" blue="0.0" alpha="0.0" colorSpace="custom" customColorSpace="sRGB"/>
+                    <constraints>
+                        <constraint firstItem="XjJ-zY-61G" firstAttribute="centerY" secondItem="fGT-gn-ngc" secondAttribute="centerY" id="0XW-RV-cfz"/>
+                        <constraint firstAttribute="trailing" secondItem="l2p-9n-rZg" secondAttribute="trailing" constant="20" id="4hJ-t1-4qp"/>
+                        <constraint firstAttribute="trailing" secondItem="l2p-9n-rZg" secondAttribute="trailing" id="AGo-dq-sIt"/>
+                        <constraint firstItem="l2p-9n-rZg" firstAttribute="centerY" secondItem="XjJ-zY-61G" secondAttribute="centerY" id="JF4-4A-3qi"/>
+                        <constraint firstItem="XjJ-zY-61G" firstAttribute="leading" secondItem="fGT-gn-ngc" secondAttribute="leading" constant="20" id="WOP-V8-ii9"/>
+                        <constraint firstAttribute="height" constant="37" id="eCQ-JD-nTP"/>
+                        <constraint firstItem="l2p-9n-rZg" firstAttribute="leading" secondItem="XjJ-zY-61G" secondAttribute="trailing" constant="10" id="fRc-DN-W1f"/>
+                        <constraint firstItem="l2p-9n-rZg" firstAttribute="leading" secondItem="fGT-gn-ngc" secondAttribute="leading" constant="20" id="srx-FZ-W4X"/>
+                    </constraints>
+                    <variation key="default">
+                        <mask key="constraints">
+                            <exclude reference="AGo-dq-sIt"/>
+                            <exclude reference="srx-FZ-W4X"/>
+                        </mask>
+                    </variation>
+                </view>
+                <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="My2-2N-yYo" userLabel="sms toggle row">
+                    <subviews>
+                        <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Gd5-M0-M7o">
+                            <constraints>
+                                <constraint firstAttribute="height" constant="20" placeholder="YES" id="cQM-4X-tGT"/>
+                            </constraints>
+                            <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                            <color key="textColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                            <nil key="highlightedColor"/>
+                        </label>
+                        <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="pzO-90-JdF" customClass="GGPCheckboxButton">
+                            <constraints>
+                                <constraint firstAttribute="height" constant="30" id="H7D-x6-95w"/>
+                                <constraint firstAttribute="width" constant="30" id="jn8-3H-82f"/>
+                            </constraints>
+                            <state key="normal" title=" "/>
+                        </button>
+                    </subviews>
+                    <color key="backgroundColor" red="0.0" green="0.0" blue="0.0" alpha="0.0" colorSpace="custom" customColorSpace="sRGB"/>
+                    <constraints>
+                        <constraint firstAttribute="trailing" secondItem="Gd5-M0-M7o" secondAttribute="trailing" constant="20" id="169-ww-bsf"/>
+                        <constraint firstItem="pzO-90-JdF" firstAttribute="centerY" secondItem="My2-2N-yYo" secondAttribute="centerY" id="Evz-ZK-i4w"/>
+                        <constraint firstItem="Gd5-M0-M7o" firstAttribute="leading" secondItem="pzO-90-JdF" secondAttribute="trailing" constant="10" id="Hf8-xX-Vh4"/>
+                        <constraint firstItem="pzO-90-JdF" firstAttribute="leading" secondItem="My2-2N-yYo" secondAttribute="leading" constant="20" id="MW0-48-SPZ"/>
+                        <constraint firstItem="Gd5-M0-M7o" firstAttribute="leading" secondItem="My2-2N-yYo" secondAttribute="leading" constant="20" id="Vrw-ev-Pn7"/>
+                        <constraint firstItem="Gd5-M0-M7o" firstAttribute="centerY" secondItem="pzO-90-JdF" secondAttribute="centerY" id="seu-Z1-uBR"/>
+                        <constraint firstAttribute="height" constant="40" id="u5l-cZ-AId"/>
+                    </constraints>
+                    <variation key="default">
+                        <mask key="constraints">
+                            <exclude reference="u5l-cZ-AId"/>
+                            <exclude reference="Vrw-ev-Pn7"/>
+                        </mask>
+                    </variation>
+                </view>
+                <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="Lir-tE-seK">
+                    <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                    <constraints>
+                        <constraint firstAttribute="height" constant="35" placeholder="YES" id="mQI-Wh-cYr"/>
+                    </constraints>
+                </view>
+                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="" textAlignment="natural" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="OFo-To-jtV">
+                    <constraints>
+                        <constraint firstAttribute="height" constant="64" placeholder="YES" id="EK2-Ad-LDx"/>
+                    </constraints>
+                    <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                    <color key="textColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                    <nil key="highlightedColor"/>
+                    <variation key="default">
+                        <mask key="constraints">
+                            <exclude reference="EK2-Ad-LDx"/>
+                        </mask>
+                    </variation>
+                </label>
+            </subviews>
+            <color key="backgroundColor" red="0.0" green="0.0" blue="0.0" alpha="0.0" colorSpace="custom" customColorSpace="sRGB"/>
+            <constraints>
+                <constraint firstItem="fGT-gn-ngc" firstAttribute="top" secondItem="0om-RJ-htd" secondAttribute="top" id="5d9-2S-aVZ"/>
+                <constraint firstItem="My2-2N-yYo" firstAttribute="height" secondItem="fGT-gn-ngc" secondAttribute="height" id="BAn-Ak-eSI"/>
+                <constraint firstItem="Lir-tE-seK" firstAttribute="leading" secondItem="0om-RJ-htd" secondAttribute="leading" constant="20" id="H6L-oE-GgO"/>
+                <constraint firstAttribute="trailing" secondItem="fGT-gn-ngc" secondAttribute="trailing" id="IJX-9t-3IP"/>
+                <constraint firstItem="Lir-tE-seK" firstAttribute="top" secondItem="My2-2N-yYo" secondAttribute="bottom" constant="16" id="MNE-TW-dqO"/>
+                <constraint firstAttribute="trailing" secondItem="My2-2N-yYo" secondAttribute="trailing" id="Z9K-dx-LQY"/>
+                <constraint firstItem="My2-2N-yYo" firstAttribute="leading" secondItem="0om-RJ-htd" secondAttribute="leading" id="cfF-KC-BLL"/>
+                <constraint firstAttribute="bottom" secondItem="OFo-To-jtV" secondAttribute="bottom" priority="750" id="dJy-bX-BsS"/>
+                <constraint firstItem="My2-2N-yYo" firstAttribute="top" secondItem="fGT-gn-ngc" secondAttribute="bottom" constant="10" id="kce-w5-rCe"/>
+                <constraint firstItem="OFo-To-jtV" firstAttribute="top" secondItem="Lir-tE-seK" secondAttribute="bottom" constant="12" id="owz-Ux-WOi"/>
+                <constraint firstItem="fGT-gn-ngc" firstAttribute="leading" secondItem="0om-RJ-htd" secondAttribute="leading" id="qNF-7p-ygO"/>
+                <constraint firstAttribute="trailing" secondItem="OFo-To-jtV" secondAttribute="trailing" constant="20" id="sS1-tW-kBA"/>
+                <constraint firstAttribute="trailing" secondItem="Lir-tE-seK" secondAttribute="trailing" constant="20" id="vfG-bA-Miw"/>
+                <constraint firstItem="OFo-To-jtV" firstAttribute="leading" secondItem="0om-RJ-htd" secondAttribute="leading" constant="20" id="zrS-uf-van"/>
+            </constraints>
+            <nil key="simulatedStatusBarMetrics"/>
+            <freeformSimulatedSizeMetrics key="simulatedDestinationMetrics"/>
+            <point key="canvasLocation" x="370" y="121.5"/>
+        </view>
+    </objects>
+</document>

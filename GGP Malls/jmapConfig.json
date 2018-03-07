@@ -1,0 +1,216 @@
+{
+    "mapStyles":{
+        "mapLayers":[
+                     {
+                     "name":"Background-Layer",
+                     "fill":"#FFFFFF"
+                     },
+                     {
+                     "name":"LBox-Layer",
+                     "fill":"none"
+                     },
+                     {
+                     "name":"Parking-Lots-Layer",
+                     "fill":"#F7F7F7"
+                     },
+                     {
+                     "name":"Parking-Zones",
+                     "fill":"none"
+                     },
+                     {
+                     "name":"Streets-SmallAlleys-Layer",
+                     "fill":"none",
+                     "stroke":"#EDEDED",
+                     "strokeWidth":"10",
+                     "strokeLinejoin":"round",
+                     "strokeMiterlimit":"10"
+                     },
+                     {
+                     "name":"Streets-Minor-Layer",
+                     "fill":"none",
+                     "stroke":"#EDEDED",
+                     "strokeWidth":"34",
+                     "strokeLinejoin":"round",
+                     "strokeMiterlimit":"10"
+                     },
+                     {
+                     "name":"Streets-Major-Layer",
+                     "fill":"none",
+                     "stroke":"#EDEDED",
+                     "strokeWidth":"86",
+                     "strokeLinejoin":"round",
+                     "strokeMiterlimit":"10"
+                     },
+                     {
+                     "name":"Mall-Boundary-Layer",
+                     "fill":"#E6E6E6",
+                     "strokeWidth":"2",
+                     "stroke":"#333333"
+                     },
+                     {
+                     "name":"Interior-ParkingLots-Layer",
+                     "fill":"#F7F7F7",
+                     "stroke":"#333333",
+                     "strokeWidth":"1"
+                     },
+                     {
+                     "name":"Pattern-Lounge-Layer",
+                     "fill":"#B7B5B7"
+                     },
+                     {
+                     "name":"Pattern-IndoorFoodCourt-Seating-Layer",
+                     "fill":"#B7B5B7"
+                     },
+                     {
+                     "name":"Pattern-OutdoorTerrace-Layer",
+                     "fill":"none",
+                     "stroke":"#A0A0A0",
+                     "strokeWidth":"10",
+                     "strokeLinejoin":"round",
+                     "strokeMiterlimit":"0"
+                     },
+                     {
+                     "name":"Pattern-Water-Layer",
+                     "fill":"#D5E3ED",
+                     "stroke":"#4B4B4D",
+                     "strokeWidth":"0.25"
+                     },
+                     {
+                     "display": "none",
+                     "name":"Pattern-Trees-Layer",
+                     "fill":"#F2F2F2"
+                     },
+                     {
+                     "display": "none",
+                     "name":"Pattern-Pavement-Layer",
+                     "fill":"#F2F2F2"
+                     },
+                     {
+                     "display": "none",
+                     "name":"Pattern-Grass-Layer",
+                     "fill":"#F2F2F2"
+                     },
+                     {
+                     "display": "none",
+                     "name":"Pattern-3-Layer",
+                     "fill":"#F2F2F2"
+                     },
+                     {
+                     "display": "none",
+                     "name":"Pattern-2-Layer",
+                     "fill":"#F2F2F2"
+                     },
+                     {
+                     "display": "none",
+                     "name":"Pattern-1-Layer",
+                     "fill":"#F2F2F2"
+                     },
+                     {
+                     "name":"Offices-Layer",
+                     "fill":"#CCCCCC",
+                     "stroke":"#333333",
+                     "strokeWidth":"0.5"
+                     },
+                     {
+                     "name":"Corridor-Indoor-Layer",
+                     "fill":"#E6E6E6"
+                     },
+                     {
+                     "name":"Obstacles-Layer",
+                     "fill":"#F7F7F7",
+                     "stroke":"#4B4B4D",
+                     "strokeWidth":".25",
+                     "opacity":"1"
+                     },
+                     {
+                     "name":"Units-Layer",
+                     "fill":"#CCCCCC",
+                     "stroke":"#333333",
+                     "strokeWidth":"0.5",
+                     "clickable":"false"
+                     },
+                     {
+                     "name":"Restrooms-Layer",
+                     "fill":"#F2F0F2"
+                     },
+                     {
+                     "name":"Stairs-Layer",
+                     "fill":"none"
+                     },
+                     {
+                     "name":"Escalators-Layer",
+                     "fill":"#F2F2F2"
+                     },
+                     {
+                     "name":"Elevators-Layer",
+                     "fill":"#F2F2F2"
+                     }
+                     ],
+        "destinationHighlight":{
+            "ease":"Back.easeInOut.config(1.7)"
+        },
+        "categoryHighlight":{
+            "ease":"Back.easeInOut.config(1.7)"
+        },
+        "svg":{
+            "dropShadow":{
+                "shadowStyle":{
+                    "opacity":0
+                }
+            }
+        },
+        "mapConfig": {
+            "startState": {
+                "zoom": 0.5,
+                "focusSpeed": 0,
+                "animateInitialState": false,
+                "animateZoom": 10
+            },
+            "engineOptions":{
+                "rotation": false,
+                "scale": false,
+                "panning": false,
+                "boundLimits": false,
+                "rotationBuffer": 7,
+                "maxScale": 4,
+                "minScale": 0.5
+            },
+            "startState":{
+                "animateInitialState": false
+            },
+            "container": {
+                "background": "#FFFFFF"
+            },
+            "mapLabels":{
+                "showLogos":false,
+                "showLabels":true,
+                "storeLabelStyle":"inlay",
+                "sponsorShip":70
+            },
+            "storeLogoSponsoredRating":70
+        },
+        
+        "iconStyles": {
+            "pathIcon": {
+                "useIcon": false
+            },
+            "youarehere": {
+                "url": "img/YAH.png",
+                "deepUrl": "",
+                "width": 120,
+                "height": 65,
+                "allowZoomScale": "true"
+            },
+            "legends": {
+                "width": 26,
+                "height": 26,
+                "offset": {
+                    "x": -13,
+                    "y": -13
+                },
+                "allowZoomScale":false
+            }
+        }
+        
+    }
+}

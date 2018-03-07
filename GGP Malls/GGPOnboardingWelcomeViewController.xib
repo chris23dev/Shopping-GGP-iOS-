@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="11201" systemVersion="15G1004" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" colorMatched="YES">
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="11161"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner" customClass="GGPOnboardingWelcomeViewController">
+            <connections>
+                <outlet property="activityIndicator" destination="ggu-yj-sSD" id="x1t-UX-8zb"/>
+                <outlet property="backgroundImageView" destination="pPm-1y-GCq" id="95k-CJ-hSf"/>
+                <outlet property="hoursLabel" destination="aBQ-DE-6MZ" id="OUZ-oJ-5S6"/>
+                <outlet property="view" destination="i5M-Pr-FkT" id="sfx-zR-JGt"/>
+                <outlet property="welcomeLabel" destination="Ayl-gv-1bG" id="hEf-8Y-iCq"/>
+            </connections>
+        </placeholder>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <view clearsContextBeforeDrawing="NO" contentMode="scaleToFill" id="i5M-Pr-FkT">
+            <rect key="frame" x="0.0" y="0.0" width="320" height="568"/>
+            <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+            <subviews>
+                <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" translatesAutoresizingMaskIntoConstraints="NO" id="pPm-1y-GCq"/>
+                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Label" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Ayl-gv-1bG">
+                    <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                    <color key="textColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                    <nil key="highlightedColor"/>
+                </label>
+                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Label" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="aBQ-DE-6MZ">
+                    <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                    <color key="textColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                    <nil key="highlightedColor"/>
+                </label>
+                <activityIndicatorView opaque="NO" contentMode="scaleToFill" horizontalHuggingPriority="750" verticalHuggingPriority="750" style="gray" translatesAutoresizingMaskIntoConstraints="NO" id="ggu-yj-sSD">
+                    <constraints>
+                        <constraint firstAttribute="height" constant="50" id="irg-ak-GET"/>
+                        <constraint firstAttribute="width" constant="50" id="rkg-fW-PmW"/>
+                    </constraints>
+                    <variation key="default">
+                        <mask key="constraints">
+                            <exclude reference="irg-ak-GET"/>
+                            <exclude reference="rkg-fW-PmW"/>
+                        </mask>
+                    </variation>
+                </activityIndicatorView>
+            </subviews>
+            <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+            <constraints>
+                <constraint firstItem="ggu-yj-sSD" firstAttribute="centerX" secondItem="i5M-Pr-FkT" secondAttribute="centerX" id="7tB-wB-4R2"/>
+                <constraint firstItem="aBQ-DE-6MZ" firstAttribute="top" secondItem="Ayl-gv-1bG" secondAttribute="bottom" constant="16" id="8TR-Sl-64O"/>
+                <constraint firstAttribute="trailing" secondItem="Ayl-gv-1bG" secondAttribute="trailing" constant="25" id="Gjo-Yw-eAb"/>
+                <constraint firstItem="pPm-1y-GCq" firstAttribute="top" secondItem="i5M-Pr-FkT" secondAttribute="top" id="IRd-fF-a8K"/>
+                <constraint firstAttribute="bottom" secondItem="pPm-1y-GCq" secondAttribute="bottom" id="J43-zZ-kge"/>
+                <constraint firstItem="ggu-yj-sSD" firstAttribute="top" secondItem="aBQ-DE-6MZ" secondAttribute="bottom" constant="16" id="OOx-T9-HhF"/>
+                <constraint firstAttribute="trailing" secondItem="pPm-1y-GCq" secondAttribute="trailing" id="a3h-sU-97J"/>
+                <constraint firstItem="pPm-1y-GCq" firstAttribute="leading" secondItem="i5M-Pr-FkT" secondAttribute="leading" id="jjt-BY-HGV"/>
+                <constraint firstItem="aBQ-DE-6MZ" firstAttribute="centerX" secondItem="i5M-Pr-FkT" secondAttribute="centerX" id="khV-FI-HNc"/>
+                <constraint firstItem="Ayl-gv-1bG" firstAttribute="leading" secondItem="i5M-Pr-FkT" secondAttribute="leading" constant="25" id="mgS-Iy-hqc"/>
+                <constraint firstItem="aBQ-DE-6MZ" firstAttribute="centerY" secondItem="i5M-Pr-FkT" secondAttribute="centerY" id="uma-K8-2vw"/>
+            </constraints>
+        </view>
+    </objects>
+</document>

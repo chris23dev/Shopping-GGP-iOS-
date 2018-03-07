@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="11201" systemVersion="16A323" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" colorMatched="YES">
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="11161"/>
+        <capability name="Aspect ratio constraints" minToolsVersion="5.1"/>
+        <capability name="Constraints to layout margins" minToolsVersion="6.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner"/>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <tableViewCell contentMode="scaleToFill" selectionStyle="default" indentationWidth="10" rowHeight="244" id="KGk-i7-Jjw" customClass="GGPMovieTheaterDetailsCell">
+            <rect key="frame" x="0.0" y="0.0" width="345" height="244"/>
+            <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+            <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" verticalCompressionResistancePriority="1000" tableViewCell="KGk-i7-Jjw" id="H2p-sc-9uM">
+                <frame key="frameInset" width="345" height="243"/>
+                <autoresizingMask key="autoresizingMask"/>
+                <subviews>
+                    <imageView userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" translatesAutoresizingMaskIntoConstraints="NO" id="FIl-mV-LEl" customClass="GGPLogoImageView">
+                        <constraints>
+                            <constraint firstAttribute="width" constant="300" id="Fax-uK-d6x"/>
+                            <constraint firstAttribute="width" secondItem="FIl-mV-LEl" secondAttribute="height" multiplier="3:1" priority="250" id="eZS-UP-T4e"/>
+                        </constraints>
+                    </imageView>
+                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="aO1-vW-Yzk">
+                        <state key="normal" title=" "/>
+                        <connections>
+                            <action selector="theaterNameButtonTapped:" destination="KGk-i7-Jjw" eventType="touchUpInside" id="44d-GV-w6H"/>
+                        </connections>
+                    </button>
+                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text=" " textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="CHY-ya-5uc">
+                        <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                        <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
+                        <nil key="highlightedColor"/>
+                    </label>
+                </subviews>
+                <constraints>
+                    <constraint firstItem="aO1-vW-Yzk" firstAttribute="leading" secondItem="H2p-sc-9uM" secondAttribute="leading" constant="10" id="2Tl-vi-tWK"/>
+                    <constraint firstItem="aO1-vW-Yzk" firstAttribute="centerX" secondItem="H2p-sc-9uM" secondAttribute="centerX" id="4dr-WZ-oiz"/>
+                    <constraint firstItem="CHY-ya-5uc" firstAttribute="centerX" secondItem="H2p-sc-9uM" secondAttribute="centerX" id="6iv-wW-WYD"/>
+                    <constraint firstItem="CHY-ya-5uc" firstAttribute="top" secondItem="aO1-vW-Yzk" secondAttribute="bottom" constant="8" id="9HY-BK-uVg"/>
+                    <constraint firstAttribute="trailingMargin" secondItem="CHY-ya-5uc" secondAttribute="trailing" constant="10" id="Ubb-gq-kUS"/>
+                    <constraint firstItem="FIl-mV-LEl" firstAttribute="top" secondItem="H2p-sc-9uM" secondAttribute="top" constant="20" id="XbP-hn-qMt"/>
+                    <constraint firstItem="aO1-vW-Yzk" firstAttribute="top" secondItem="FIl-mV-LEl" secondAttribute="bottom" constant="8" id="a9J-fj-ss4"/>
+                    <constraint firstItem="CHY-ya-5uc" firstAttribute="leading" secondItem="H2p-sc-9uM" secondAttribute="leadingMargin" constant="10" id="dux-uY-wrD"/>
+                    <constraint firstAttribute="trailing" secondItem="aO1-vW-Yzk" secondAttribute="trailing" constant="10" id="hx6-zZ-htu"/>
+                    <constraint firstAttribute="bottomMargin" secondItem="CHY-ya-5uc" secondAttribute="bottom" constant="5" id="sOi-B0-S6N"/>
+                    <constraint firstItem="FIl-mV-LEl" firstAttribute="centerX" secondItem="H2p-sc-9uM" secondAttribute="centerX" id="zNq-od-rws"/>
+                </constraints>
+            </tableViewCellContentView>
+            <connections>
+                <outlet property="logoImageView" destination="FIl-mV-LEl" id="6LL-m1-wZc"/>
+                <outlet property="theaterLocationLabel" destination="CHY-ya-5uc" id="eS7-jv-0d5"/>
+                <outlet property="theaterNameButton" destination="aO1-vW-Yzk" id="pHn-cE-hfg"/>
+            </connections>
+            <point key="canvasLocation" x="486.5" y="308"/>
+        </tableViewCell>
+    </objects>
+</document>

@@ -1,0 +1,80 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="10117" systemVersion="15G31" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES">
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="10085"/>
+        <capability name="Aspect ratio constraints" minToolsVersion="5.1"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner" customClass="GGPTenantDetailProductsViewController">
+            <connections>
+                <outlet property="borderView" destination="LuO-ID-AmH" id="Lbx-dI-pXw"/>
+                <outlet property="dropDownIcon" destination="ioY-qK-yqE" id="2tm-w8-VMa"/>
+                <outlet property="productsHeadingLabel" destination="2ZG-Jr-m6F" id="ag3-jh-viT"/>
+                <outlet property="tableViewContainer" destination="JnS-As-6VB" id="Krs-Xq-mhT"/>
+                <outlet property="view" destination="i5M-Pr-FkT" id="sfx-zR-JGt"/>
+            </connections>
+        </placeholder>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <view clearsContextBeforeDrawing="NO" contentMode="scaleToFill" id="i5M-Pr-FkT">
+            <rect key="frame" x="0.0" y="0.0" width="600" height="96"/>
+            <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+            <subviews>
+                <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="LuO-ID-AmH">
+                    <rect key="frame" x="0.0" y="0.0" width="600" height="1"/>
+                    <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                    <constraints>
+                        <constraint firstAttribute="height" constant="1" id="q4O-h3-VDV"/>
+                    </constraints>
+                </view>
+                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Label" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="2ZG-Jr-m6F">
+                    <rect key="frame" x="25" y="21" width="42" height="20.5"/>
+                    <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                    <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
+                    <nil key="highlightedColor"/>
+                </label>
+                <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="ggp_icon_filter_down_arrow" translatesAutoresizingMaskIntoConstraints="NO" id="ioY-qK-yqE">
+                    <rect key="frame" x="75" y="19.5" width="25" height="25"/>
+                    <constraints>
+                        <constraint firstAttribute="width" secondItem="ioY-qK-yqE" secondAttribute="height" multiplier="1:1" id="1zF-ke-uxY"/>
+                        <constraint firstAttribute="width" constant="25" id="Ocu-3l-L0A"/>
+                        <constraint firstAttribute="height" constant="25" id="d3j-cM-U7l"/>
+                    </constraints>
+                </imageView>
+                <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="JnS-As-6VB">
+                    <rect key="frame" x="10" y="49.5" width="590" height="46.5"/>
+                    <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                </view>
+            </subviews>
+            <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
+            <constraints>
+                <constraint firstItem="LuO-ID-AmH" firstAttribute="top" secondItem="i5M-Pr-FkT" secondAttribute="top" id="0eo-LL-uCc"/>
+                <constraint firstItem="2ZG-Jr-m6F" firstAttribute="top" secondItem="i5M-Pr-FkT" secondAttribute="top" constant="25" id="150-1T-kvg"/>
+                <constraint firstAttribute="bottom" secondItem="JnS-As-6VB" secondAttribute="bottom" id="B5e-Hp-AcB"/>
+                <constraint firstItem="2ZG-Jr-m6F" firstAttribute="leading" secondItem="i5M-Pr-FkT" secondAttribute="leading" constant="25" id="J3D-GE-eaM"/>
+                <constraint firstItem="JnS-As-6VB" firstAttribute="top" secondItem="2ZG-Jr-m6F" secondAttribute="bottom" constant="8" id="LPC-6A-UJF"/>
+                <constraint firstAttribute="trailing" secondItem="2ZG-Jr-m6F" secondAttribute="trailing" constant="25" id="MGB-CZ-02r"/>
+                <constraint firstItem="ioY-qK-yqE" firstAttribute="centerY" secondItem="2ZG-Jr-m6F" secondAttribute="centerY" id="NDP-4a-v87"/>
+                <constraint firstAttribute="trailing" secondItem="JnS-As-6VB" secondAttribute="trailing" id="PEF-JW-r6r"/>
+                <constraint firstItem="JnS-As-6VB" firstAttribute="leading" secondItem="i5M-Pr-FkT" secondAttribute="leading" constant="10" id="SVq-Wf-7rx"/>
+                <constraint firstItem="2ZG-Jr-m6F" firstAttribute="top" secondItem="LuO-ID-AmH" secondAttribute="bottom" constant="20" id="T7h-c6-w2V"/>
+                <constraint firstItem="LuO-ID-AmH" firstAttribute="leading" secondItem="i5M-Pr-FkT" secondAttribute="leading" id="cfH-HQ-Tag"/>
+                <constraint firstAttribute="trailing" secondItem="LuO-ID-AmH" secondAttribute="trailing" id="iIS-4n-jdh"/>
+                <constraint firstItem="ioY-qK-yqE" firstAttribute="leading" secondItem="2ZG-Jr-m6F" secondAttribute="trailing" constant="8" id="vjD-kR-Umw"/>
+            </constraints>
+            <nil key="simulatedStatusBarMetrics"/>
+            <nil key="simulatedTopBarMetrics"/>
+            <freeformSimulatedSizeMetrics key="simulatedDestinationMetrics"/>
+            <variation key="default">
+                <mask key="constraints">
+                    <exclude reference="150-1T-kvg"/>
+                    <exclude reference="MGB-CZ-02r"/>
+                </mask>
+            </variation>
+            <point key="canvasLocation" x="370" y="45"/>
+        </view>
+    </objects>
+    <resources>
+        <image name="ggp_icon_filter_down_arrow" width="24" height="26"/>
+    </resources>
+</document>

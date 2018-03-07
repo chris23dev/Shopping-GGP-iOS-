@@ -1,0 +1,41 @@
+//
+//  GGPMalls-Prefix.pch
+//  GGP Malls
+//
+//  Created by Chistiaan Kuilman on 1/6/16.
+//  Copyright © 2016 GGP. All rights reserved.
+//
+
+#ifndef GGPMalls_Prefix_pch
+#define GGPMalls_Prefix_pch
+
+#define GGPMustOverride \
+NSString *error = [NSString stringWithFormat:@"You must override %@ in a subclass", NSStringFromSelector(_cmd)]; \
+@throw [NSException exceptionWithName:NSInternalInconsistencyException reason:error userInfo:nil];
+
+// Logging
+#import "GGPLog.h"
+static const DDLogLevel ddLogLevel = DDLogLevelDebug;
+
+#define GGPLogDebug(format, ...) \
+    DDLogDebug(format, ##__VA_ARGS__)
+
+#define GGPLogInfo(format, ...) \
+DDLogInfo(format, ##__VA_ARGS__)
+
+#define GGPLogWarn(format, ...) \
+DDLogWarn(format, ##__VA_ARGS__)
+
+#define GGPLogError(format, ...) \
+DDLogError(format, ##__VA_ARGS__)
+// end Logging
+
+// Analytics
+#import "GGPAnalytics.h"
+
+// Crash Reporting
+#import "GGPCrashReporting.h"
+
+#import "GGPNotificationConstants.h"
+
+#endif /* GGPMalls_Prefix_pch */

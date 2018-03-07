@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="10117" systemVersion="15G31" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES">
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="10117"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner" customClass="GGPParkingViewController">
+            <connections>
+                <outlet property="contentContainer" destination="RnM-T3-UpN" id="V3n-ho-Sdm"/>
+                <outlet property="ribbonContainer" destination="68H-NQ-pCe" id="Zz2-Xd-qMu"/>
+                <outlet property="view" destination="i5M-Pr-FkT" id="sfx-zR-JGt"/>
+            </connections>
+        </placeholder>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <view clearsContextBeforeDrawing="NO" contentMode="scaleToFill" id="i5M-Pr-FkT">
+            <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
+            <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+            <subviews>
+                <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="68H-NQ-pCe">
+                    <rect key="frame" x="0.0" y="0.0" width="600" height="43"/>
+                    <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                    <constraints>
+                        <constraint firstAttribute="height" constant="43" id="w37-4M-fsh"/>
+                    </constraints>
+                </view>
+                <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="RnM-T3-UpN">
+                    <rect key="frame" x="0.0" y="44" width="600" height="556"/>
+                    <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                </view>
+                <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="nHQ-Zq-FHJ">
+                    <rect key="frame" x="0.0" y="43" width="600" height="1"/>
+                    <color key="backgroundColor" red="0.93725490199999995" green="0.93725490199999995" blue="0.95686274510000002" alpha="1" colorSpace="calibratedRGB"/>
+                    <constraints>
+                        <constraint firstAttribute="height" constant="1" id="p3k-gm-lHN"/>
+                    </constraints>
+                </view>
+            </subviews>
+            <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
+            <constraints>
+                <constraint firstAttribute="trailing" secondItem="nHQ-Zq-FHJ" secondAttribute="trailing" id="0lO-j1-mQb"/>
+                <constraint firstAttribute="trailing" secondItem="RnM-T3-UpN" secondAttribute="trailing" id="8PM-nt-onM"/>
+                <constraint firstItem="RnM-T3-UpN" firstAttribute="top" secondItem="nHQ-Zq-FHJ" secondAttribute="bottom" id="DcT-KW-8pz"/>
+                <constraint firstAttribute="bottom" secondItem="RnM-T3-UpN" secondAttribute="bottom" id="Dxg-fI-GVg"/>
+                <constraint firstItem="68H-NQ-pCe" firstAttribute="top" secondItem="i5M-Pr-FkT" secondAttribute="top" id="L8J-aA-r8e"/>
+                <constraint firstItem="RnM-T3-UpN" firstAttribute="leading" secondItem="i5M-Pr-FkT" secondAttribute="leading" id="LGj-V9-2RC"/>
+                <constraint firstItem="nHQ-Zq-FHJ" firstAttribute="top" secondItem="68H-NQ-pCe" secondAttribute="bottom" id="OMW-5U-Yhq"/>
+                <constraint firstItem="68H-NQ-pCe" firstAttribute="leading" secondItem="i5M-Pr-FkT" secondAttribute="leading" id="Ryc-R8-pK6"/>
+                <constraint firstItem="RnM-T3-UpN" firstAttribute="top" secondItem="68H-NQ-pCe" secondAttribute="bottom" id="nVg-VF-roa"/>
+                <constraint firstAttribute="trailing" secondItem="68H-NQ-pCe" secondAttribute="trailing" id="nqj-am-gfP"/>
+                <constraint firstItem="nHQ-Zq-FHJ" firstAttribute="leading" secondItem="i5M-Pr-FkT" secondAttribute="leading" id="ySe-nj-h0W"/>
+            </constraints>
+            <variation key="default">
+                <mask key="constraints">
+                    <exclude reference="nVg-VF-roa"/>
+                </mask>
+            </variation>
+        </view>
+    </objects>
+</document>

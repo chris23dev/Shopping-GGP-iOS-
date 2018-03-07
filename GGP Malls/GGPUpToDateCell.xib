@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="11201" systemVersion="15G1004" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" colorMatched="YES">
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="11161"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner"/>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <tableViewCell contentMode="scaleToFill" selectionStyle="default" indentationWidth="10" rowHeight="126" id="KGk-i7-Jjw" customClass="GGPUpToDateCell">
+            <rect key="frame" x="0.0" y="0.0" width="320" height="126"/>
+            <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+            <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" tableViewCell="KGk-i7-Jjw" id="H2p-sc-9uM">
+                <frame key="frameInset" width="320" height="125"/>
+                <autoresizingMask key="autoresizingMask"/>
+                <subviews>
+                    <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="ggp_checkmark_gray" translatesAutoresizingMaskIntoConstraints="NO" id="ruD-U9-knr">
+                        <constraints>
+                            <constraint firstAttribute="height" constant="30" id="N4b-ZU-1aI"/>
+                            <constraint firstAttribute="width" constant="30" id="guN-Qe-OkL"/>
+                        </constraints>
+                    </imageView>
+                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Label" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Omv-XK-JwN">
+                        <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                        <color key="textColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                        <nil key="highlightedColor"/>
+                    </label>
+                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="hxL-CX-TeU">
+                        <constraints>
+                            <constraint firstAttribute="height" constant="25" id="QG5-Sh-JYb"/>
+                        </constraints>
+                        <state key="normal" title="Button"/>
+                        <connections>
+                            <action selector="onChooseFavoritesTap:" destination="KGk-i7-Jjw" eventType="touchUpInside" id="jiz-OR-2wr"/>
+                        </connections>
+                    </button>
+                </subviews>
+                <constraints>
+                    <constraint firstAttribute="bottom" secondItem="hxL-CX-TeU" secondAttribute="bottom" priority="750" constant="15" id="8Kq-LQ-Qv7"/>
+                    <constraint firstItem="ruD-U9-knr" firstAttribute="top" secondItem="H2p-sc-9uM" secondAttribute="top" constant="15" id="E6s-PP-hnJ"/>
+                    <constraint firstItem="hxL-CX-TeU" firstAttribute="leading" secondItem="H2p-sc-9uM" secondAttribute="leading" constant="25" id="Elc-Du-vrK"/>
+                    <constraint firstAttribute="trailing" secondItem="hxL-CX-TeU" secondAttribute="trailing" constant="25" id="X21-9r-wba"/>
+                    <constraint firstItem="Omv-XK-JwN" firstAttribute="leading" secondItem="ruD-U9-knr" secondAttribute="trailing" constant="10" id="g9t-0Z-2gg"/>
+                    <constraint firstItem="Omv-XK-JwN" firstAttribute="centerX" secondItem="H2p-sc-9uM" secondAttribute="centerX" constant="20" id="lkg-7K-NK1"/>
+                    <constraint firstItem="Omv-XK-JwN" firstAttribute="centerY" secondItem="ruD-U9-knr" secondAttribute="centerY" id="nkK-xo-jom"/>
+                    <constraint firstItem="hxL-CX-TeU" firstAttribute="top" secondItem="ruD-U9-knr" secondAttribute="bottom" constant="15" id="yUh-rk-eA3"/>
+                </constraints>
+            </tableViewCellContentView>
+            <connections>
+                <outlet property="chooseFavoritesButton" destination="hxL-CX-TeU" id="6qB-iU-vZc"/>
+                <outlet property="chooseFavoritesButtonHeightConstraint" destination="QG5-Sh-JYb" id="sOB-0c-xin"/>
+                <outlet property="upToDateLabel" destination="Omv-XK-JwN" id="VSQ-g6-npJ"/>
+            </connections>
+            <point key="canvasLocation" x="454" y="377"/>
+        </tableViewCell>
+    </objects>
+    <resources>
+        <image name="ggp_checkmark_gray" width="30" height="30"/>
+    </resources>
+</document>

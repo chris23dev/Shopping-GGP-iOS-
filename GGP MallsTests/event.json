@@ -1,0 +1,21 @@
+{
+    "id": 3,
+    "name": "Farmer's Market - New Location!",
+    "description": "The Stonestown Farmers Market takes place at the Stonestown Galleria and serves a handful of communities on the West side of San Francisco, including Sunset, Parkside, Forest Hill, Merced Manor, Lakeside, Monterey Heights, West Portal, St. Francis Wood, Ingleside, Merced Heights, Oceanview, Westwood and more. <br />\r\n \r\n <br />\r\n \r\n This market is proud to have been named San Francisco’s Best Family-Oriented Farmers Market by the SF Weekly – bring the kids and come see why. With excellent public transportation and an abundance of free parking, this market makes for a convenient and celebratory Sunday outing. <br />\r\n \r\n <br />\r\n \r\n Sundays from 9am-1pm, year-round in the parking lot next to the UA Theater.",
+    "mappings": [
+                 {
+                 "mallId": 1020,
+                 "storeIds": [443, 293]
+                 }
+                 ],
+    "location": "Parking lot next to the UA Theater",
+    "teaserDescription": "",
+    "imageUrl": "http://assets.digitalservices.ggp.com/content/dam/ggp-digital-assets/Images/Collection-Images/Events/Legacy-Prop-Inv/2173-farmer%27s-market---new-location!-250x250-v1.jpg/jcr:content/renditions/cq5dam.web.480.480.jpeg?cq_ck=1444049598000",
+    "displayDateTime": "2015-11-04T00:00",
+    "startDateTime": "2013-01-01T09:00",
+    "endDateTime": "2020-01-01T13:00",
+    "isFeatured": true,
+    "externalLinks": [],
+    "lastModifiedDateTime": "2016-01-20T20:54",
+    "defaultImageUrl": "http://assets.digitalservices.ggp.com/content/dam/ggp-digital-assets/Images/Stock-Images/Placeholder/default-event-icon.png/jcr:content/renditions/cq5dam.web.480.480.png"
+}

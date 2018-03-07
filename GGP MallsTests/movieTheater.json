@@ -1,0 +1,207 @@
+{
+    "id": 2959,
+    "leaseId": 170013,
+    "mallId": 1011,
+    "description": "this is a mall description",
+    "todaysHours": {
+        "openTime": "00:00",
+        "closeTime": "00:00",
+        "open": false
+    },
+    "name": "Galleria 6 Cinemas",
+    "phoneNumber": "3147250856",
+    "theaterUrl": "http://www.website.fake",
+    "nonSvgLogoUrl": "http://www.svgwebsite.fake",
+    "blackAndWhiteLogoUrl": "http://www.bwlogourl.jpg",
+    "logoUrl": "http://www.logourl.fake",
+    "heroUrl": "http://www.fakeurl.fake",
+    "googlePlacesId": "ChIJf7evwDzL2IcRq8tl9AEmNas",
+    "source": "GOOGLE_PLACES",
+    "heroAltText": "hero alt text",
+    "openTableId": 12345,
+    "operatingHours": [{
+                       "id": 174894,
+                       "storeId": 2,
+                       "openTime": "10:00",
+                       "closeTime": "21:00",
+                       "open": true,
+                       "dayOfWeek": "FRI",
+                       "source": "AUTHORED"
+                       },
+                       {
+                       "id": 174895,
+                       "storeId": 2,
+                       "openTime": "10:00",
+                       "closeTime": "21:00",
+                       "open": true,
+                       "dayOfWeek": "MON",
+                       "source": "AUTHORED"
+                       },
+                       {
+                       "id": 174897,
+                       "storeId": 2,
+                       "openTime": "10:00",
+                       "closeTime": "21:00",
+                       "open": true,
+                       "dayOfWeek": "SAT",
+                       "source": "AUTHORED"
+                       },
+                       {
+                       "id": 174899,
+                       "storeId": 2,
+                       "openTime": "11:00",
+                       "closeTime": "18:00",
+                       "open": true,
+                       "dayOfWeek": "SUN",
+                       "source": "AUTHORED"
+                       },
+                       {
+                       "id": 174898,
+                       "storeId": 2,
+                       "openTime": "10:00",
+                       "closeTime": "21:00",
+                       "open": true,
+                       "dayOfWeek": "THU",
+                       "source": "AUTHORED"
+                       },
+                       {
+                       "id": 174893,
+                       "storeId": 2,
+                       "openTime": "10:00",
+                       "closeTime": "21:00",
+                       "open": true,
+                       "dayOfWeek": "TUE",
+                       "source": "AUTHORED"
+                       },
+                       {
+                       "id": 174896,
+                       "storeId": 2,
+                       "openTime": "10:00",
+                       "closeTime": "21:00",
+                       "open": true,
+                       "dayOfWeek": "WED",
+                       "source": "AUTHORED"
+                       }],
+    "operatingHoursExceptions": [
+                                 {
+                                 "openTime": "11:00",
+                                 "closeTime": "00:00",
+                                 "open": true,
+                                 "startMonthDay": "11/26",
+                                 "endMonthDay": "11/26",
+                                 "validUntilDate": "2015-11-27",
+                                 "holidayName": ""
+                                 },
+                                 {
+                                 "openTime": "10:00",
+                                 "closeTime": "23:30",
+                                 "open": true,
+                                 "startMonthDay": "11/27",
+                                 "endMonthDay": "11/27",
+                                 "validUntilDate": "2015-11-28",
+                                 "holidayName": ""
+                                 }
+                                 ],
+    "placeWiseStoreId": 2138863412,
+    "placeWiseRetailerId": 2137054387,
+    "lastModifiedDateTime": "2015-10-23T17:42",
+    "movieTheaterCinemasourceId": 8085,
+    "tmsId": "AAQEY",
+    "houseName": "Galleria 6 Cinemas",
+    "numberOfScreens": 6,
+    "listeningDevicesAvailable": true,
+    "disabledSeatingAvailable": true,
+    "seatingInformation": "this seat",
+    "movies": [
+               {
+               "id": 175811,
+               "title": "Star Wars: The Force Awakens",
+               "synopsis": "In this continuation of the \"Star Wars\" saga, balance returns to the Force as the First Order, emerging from the ashes of the Empire, clashes with the Resistance, which includes scrappy newcomers as well as heroes from the former Rebel Alliance.",
+               "mpaaRating": "PG-13",
+               "runTimeInMinutes": 136,
+               "director": "J.J. Abrams",
+               "parentId": 0,
+               "fandangoId": 169229,
+               "largePosterImageUrl": "http://www.movienewsletters.net/photos/175811h1.jpg",
+               "smallPosterImageUrl": "http://www.movienewsletters.net/photos/17581101.jpg",
+               "showtimes": [
+                             {
+                             "movieShowtime": "2015-12-17T22:00"
+                             }
+                             ],
+               "genres": [
+                          "SciFi/Fantasy",
+                          ""
+                          ],
+               "actors": [
+                          "John Boyega",
+                          "Daisy Ridley",
+                          "Oscar Isaac",
+                          "Adam Driver",
+                          "Domhnall Gleeson"
+                          ]
+               },
+               {
+               "id": 199259,
+               "title": "Star Wars: The Force Awakens 3D",
+               "synopsis": "In this continuation of the \"Star Wars\" saga, balance returns to the Force as the First Order, emerging from the ashes of the Empire, clashes with the Resistance, which includes scrappy newcomers as well as heroes from the former Rebel Alliance.",
+               "mpaaRating": "PG-13",
+               "runTimeInMinutes": 136,
+               "director": "J.J. Abrams",
+               "parentId": 175811,
+               "fandangoId": 181972,
+               "largePosterImageUrl": "http://www.movienewsletters.net/photos/199259h1.jpg",
+               "smallPosterImageUrl": "http://www.movienewsletters.net/photos/19925901.jpg",
+               "showtimes": [
+                             {
+                             "movieShowtime": "2015-12-17T20:00"
+                             },
+                             {
+                             "movieShowtime": "2015-12-17T23:00"
+                             }
+                             ],
+               "genres": [
+                          "SciFi/Fantasy",
+                          ""
+                          ],
+               "actors": [
+                          "John Boyega",
+                          "Daisy Ridley",
+                          "Oscar Isaac",
+                          "Adam Driver",
+                          "Domhnall Gleeson"
+                          ]
+               },
+               {
+               "id": 204336,
+               "title": "Creed",
+               "synopsis": "Adonis Johnson never knew his famous father,world heavy weight champion Apollo Creed, who died before he was born. Still, there's no denying that boxing is in his blood, so Adonis heads to Philadelphia, the site of Apollo Creed's legendary match with a tough upstart named Rocky Balboa. Rocky sees in Adonis the strength and determination he had known in Apollo - the fierce rival who became his closest friend.",
+               "mpaaRating": "PG-13",
+               "runTimeInMinutes": 132,
+               "director": "Ryan Coogler",
+               "parentId": 0,
+               "fandangoId": 181117,
+               "largePosterImageUrl": "http://www.movienewsletters.net/photos/204336h1.jpg",
+               "smallPosterImageUrl": "http://www.movienewsletters.net/photos/20433601.jpg",
+               "showtimes": [
+                             {
+                             "movieShowtime": "2015-12-16T21:20"
+                             },
+                             {
+                             "movieShowtime": "2015-12-17T16:00"
+                             }
+                             ],
+               "genres": [
+                          "Drama",
+                          ""
+                          ],
+               "actors": [
+                          "Michael B. Jordan",
+                          "Sylvester Stallone",
+                          "Tessa Thompson",
+                          "Phylicia Rashad",
+                          "Anthony Bellew"
+                          ]
+               }
+               ]
+}

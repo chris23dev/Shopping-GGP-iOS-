@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="10117" systemVersion="15G31" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES">
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="10085"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner"/>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <view contentMode="scaleToFill" id="YlF-Xx-UEw" customClass="GGPBrandFooterView">
+            <rect key="frame" x="0.0" y="0.0" width="600" height="64"/>
+            <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+            <subviews>
+                <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="MNs-1S-xad">
+                    <rect key="frame" x="0.0" y="0.0" width="600" height="1"/>
+                    <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                    <constraints>
+                        <constraint firstAttribute="height" constant="1" id="QvG-ir-mSu"/>
+                    </constraints>
+                </view>
+                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Label" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="oEm-cu-1NQ">
+                    <rect key="frame" x="16" y="4" width="568" height="56"/>
+                    <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                    <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
+                    <nil key="highlightedColor"/>
+                </label>
+            </subviews>
+            <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+            <constraints>
+                <constraint firstItem="oEm-cu-1NQ" firstAttribute="leading" secondItem="YlF-Xx-UEw" secondAttribute="leading" constant="16" id="10h-3I-7xC"/>
+                <constraint firstItem="MNs-1S-xad" firstAttribute="leading" secondItem="YlF-Xx-UEw" secondAttribute="leading" id="2nm-j0-MWr"/>
+                <constraint firstAttribute="trailing" secondItem="MNs-1S-xad" secondAttribute="trailing" id="3C8-Qq-oDa"/>
+                <constraint firstItem="MNs-1S-xad" firstAttribute="leading" secondItem="oEm-cu-1NQ" secondAttribute="leading" id="Lpx-Wt-GEF"/>
+                <constraint firstAttribute="trailing" secondItem="oEm-cu-1NQ" secondAttribute="trailing" constant="16" id="OB1-Qf-R5I"/>
+                <constraint firstAttribute="bottom" secondItem="oEm-cu-1NQ" secondAttribute="bottom" constant="4" id="TzZ-cJ-8EF"/>
+                <constraint firstItem="MNs-1S-xad" firstAttribute="top" secondItem="YlF-Xx-UEw" secondAttribute="top" id="dd0-ul-eT0"/>
+                <constraint firstItem="MNs-1S-xad" firstAttribute="leading" secondItem="YlF-Xx-UEw" secondAttribute="leading" id="kJB-Sl-aFK"/>
+                <constraint firstItem="oEm-cu-1NQ" firstAttribute="top" secondItem="YlF-Xx-UEw" secondAttribute="top" constant="4" id="n3M-bt-oTB"/>
+            </constraints>
+            <nil key="simulatedStatusBarMetrics"/>
+            <nil key="simulatedTopBarMetrics"/>
+            <freeformSimulatedSizeMetrics key="simulatedDestinationMetrics"/>
+            <variation key="default">
+                <mask key="constraints">
+                    <exclude reference="2nm-j0-MWr"/>
+                    <exclude reference="Lpx-Wt-GEF"/>
+                </mask>
+            </variation>
+            <connections>
+                <outlet property="borderView" destination="MNs-1S-xad" id="vbH-Ut-IVC"/>
+                <outlet property="borderViewHeightConstraint" destination="QvG-ir-mSu" id="rQe-Vx-4ge"/>
+                <outlet property="disclaimerLabel" destination="oEm-cu-1NQ" id="9FS-3F-R1Q"/>
+            </connections>
+            <point key="canvasLocation" x="361" y="178.5"/>
+        </view>
+    </objects>
+</document>

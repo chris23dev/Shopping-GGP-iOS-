@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="11201" systemVersion="16A323" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" colorMatched="YES">
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="11161"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner" customClass="GGPMultiTheaterDetailViewController">
+            <connections>
+                <outlet property="theaterImageView" destination="Fow-et-WTA" id="gfe-sf-ZTh"/>
+                <outlet property="theaterLocationLabel" destination="he0-fX-bqb" id="thp-Bm-kpa"/>
+                <outlet property="theaterNameLabel" destination="4kP-1x-O0l" id="hvW-FA-i8a"/>
+                <outlet property="view" destination="i5M-Pr-FkT" id="sfx-zR-JGt"/>
+            </connections>
+        </placeholder>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <view clearsContextBeforeDrawing="NO" contentMode="scaleToFill" id="i5M-Pr-FkT">
+            <rect key="frame" x="0.0" y="0.0" width="375" height="115"/>
+            <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+            <subviews>
+                <imageView userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" translatesAutoresizingMaskIntoConstraints="NO" id="Fow-et-WTA" customClass="GGPLogoImageView">
+                    <constraints>
+                        <constraint firstAttribute="width" constant="50" id="Vkr-bt-i4u"/>
+                        <constraint firstAttribute="height" constant="50" id="Wtq-w4-vhK"/>
+                    </constraints>
+                </imageView>
+                <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="lKn-WJ-DMo">
+                    <subviews>
+                        <label opaque="NO" userInteractionEnabled="NO" contentMode="left" verticalHuggingPriority="249" text="Label" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="4kP-1x-O0l">
+                            <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                            <nil key="textColor"/>
+                            <nil key="highlightedColor"/>
+                        </label>
+                        <label opaque="NO" userInteractionEnabled="NO" contentMode="left" text="Label" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="he0-fX-bqb">
+                            <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                            <nil key="textColor"/>
+                            <nil key="highlightedColor"/>
+                        </label>
+                    </subviews>
+                    <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                    <constraints>
+                        <constraint firstAttribute="trailing" secondItem="4kP-1x-O0l" secondAttribute="trailing" id="3q7-Y6-pE4"/>
+                        <constraint firstAttribute="bottom" secondItem="he0-fX-bqb" secondAttribute="bottom" id="Dcw-KZ-tdS"/>
+                        <constraint firstItem="he0-fX-bqb" firstAttribute="leading" secondItem="lKn-WJ-DMo" secondAttribute="leading" id="EXO-ZR-SHd"/>
+                        <constraint firstItem="4kP-1x-O0l" firstAttribute="top" secondItem="lKn-WJ-DMo" secondAttribute="top" id="Zg9-U6-o6u"/>
+                        <constraint firstItem="4kP-1x-O0l" firstAttribute="leading" secondItem="lKn-WJ-DMo" secondAttribute="leading" id="bVx-Ng-DXb"/>
+                        <constraint firstItem="he0-fX-bqb" firstAttribute="top" secondItem="4kP-1x-O0l" secondAttribute="bottom" id="ksQ-X8-sLH"/>
+                        <constraint firstAttribute="trailing" secondItem="he0-fX-bqb" secondAttribute="trailing" id="qln-8V-KOx"/>
+                    </constraints>
+                </view>
+            </subviews>
+            <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+            <constraints>
+                <constraint firstAttribute="bottom" secondItem="lKn-WJ-DMo" secondAttribute="bottom" constant="20" id="7j7-vJ-Mve"/>
+                <constraint firstAttribute="trailing" secondItem="lKn-WJ-DMo" secondAttribute="trailing" constant="20" id="MCx-yr-vsT"/>
+                <constraint firstItem="Fow-et-WTA" firstAttribute="centerY" secondItem="lKn-WJ-DMo" secondAttribute="centerY" id="cDA-7N-oMu"/>
+                <constraint firstItem="lKn-WJ-DMo" firstAttribute="top" secondItem="i5M-Pr-FkT" secondAttribute="top" constant="20" id="fr9-ZU-ubF"/>
+                <constraint firstItem="lKn-WJ-DMo" firstAttribute="leading" secondItem="Fow-et-WTA" secondAttribute="trailing" constant="8" id="qNf-cR-E6h"/>
+                <constraint firstItem="Fow-et-WTA" firstAttribute="leading" secondItem="i5M-Pr-FkT" secondAttribute="leading" constant="20" id="tRu-nM-x7e"/>
+            </constraints>
+            <nil key="simulatedStatusBarMetrics"/>
+            <nil key="simulatedTopBarMetrics"/>
+            <freeformSimulatedSizeMetrics key="simulatedDestinationMetrics"/>
+            <point key="canvasLocation" x="33.5" y="-214.5"/>
+        </view>
+    </objects>
+</document>

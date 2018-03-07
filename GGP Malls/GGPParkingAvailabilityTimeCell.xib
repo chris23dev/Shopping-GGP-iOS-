@@ -1,0 +1,83 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="10117" systemVersion="15F34" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES">
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="10085"/>
+        <capability name="Aspect ratio constraints" minToolsVersion="5.1"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner"/>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <collectionViewCell opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" id="gTV-IL-0wX" customClass="GGPParkingAvailabilityTimeCell">
+            <rect key="frame" x="0.0" y="0.0" width="80" height="80"/>
+            <autoresizingMask key="autoresizingMask"/>
+            <view key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center">
+                <rect key="frame" x="0.0" y="0.0" width="80" height="80"/>
+                <subviews>
+                    <view alpha="0.34999999999999998" contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="gag-Kx-haF">
+                        <rect key="frame" x="0.0" y="0.0" width="80" height="3"/>
+                        <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="calibratedWhite"/>
+                        <constraints>
+                            <constraint firstAttribute="height" constant="3" id="1Vh-IE-Sid"/>
+                            <constraint firstAttribute="height" relation="greaterThanOrEqual" constant="3" id="lP4-al-sVD"/>
+                        </constraints>
+                        <variation key="default">
+                            <mask key="constraints">
+                                <exclude reference="lP4-al-sVD"/>
+                            </mask>
+                        </variation>
+                    </view>
+                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Label" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="XE4-Ck-CMz">
+                        <rect key="frame" x="2" y="8" width="76" height="21"/>
+                        <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                        <color key="textColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
+                        <nil key="highlightedColor"/>
+                    </label>
+                    <imageView userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" translatesAutoresizingMaskIntoConstraints="NO" id="6jD-IK-jem">
+                        <rect key="frame" x="23" y="37" width="35" height="35"/>
+                        <constraints>
+                            <constraint firstAttribute="width" secondItem="6jD-IK-jem" secondAttribute="height" multiplier="1:1" id="HCu-ej-GEz"/>
+                            <constraint firstAttribute="height" constant="35" id="Tkn-LF-Dhk"/>
+                            <constraint firstAttribute="width" constant="35" id="wEq-RY-Lkp"/>
+                        </constraints>
+                    </imageView>
+                    <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="0Pi-mZ-Oxe">
+                        <rect key="frame" x="79" y="0.0" width="1" height="80"/>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                        <constraints>
+                            <constraint firstAttribute="width" constant="1" id="Je8-oe-gbo"/>
+                        </constraints>
+                    </view>
+                </subviews>
+                <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="calibratedWhite"/>
+            </view>
+            <constraints>
+                <constraint firstItem="XE4-Ck-CMz" firstAttribute="leading" secondItem="gTV-IL-0wX" secondAttribute="leading" constant="2" id="2BL-ga-ZAb"/>
+                <constraint firstItem="6jD-IK-jem" firstAttribute="top" secondItem="XE4-Ck-CMz" secondAttribute="bottom" constant="8" id="39c-CU-DZz"/>
+                <constraint firstItem="XE4-Ck-CMz" firstAttribute="top" secondItem="gTV-IL-0wX" secondAttribute="top" constant="8" id="3VC-hV-bpy"/>
+                <constraint firstItem="gag-Kx-haF" firstAttribute="leading" secondItem="gTV-IL-0wX" secondAttribute="leading" id="F00-iZ-mIV"/>
+                <constraint firstItem="6jD-IK-jem" firstAttribute="centerX" secondItem="gTV-IL-0wX" secondAttribute="centerX" id="QKu-pY-VIB"/>
+                <constraint firstAttribute="trailing" secondItem="gag-Kx-haF" secondAttribute="trailing" id="R36-bc-2vU"/>
+                <constraint firstAttribute="bottom" secondItem="0Pi-mZ-Oxe" secondAttribute="bottom" id="RL9-Uc-DJv"/>
+                <constraint firstItem="0Pi-mZ-Oxe" firstAttribute="top" secondItem="gTV-IL-0wX" secondAttribute="top" id="Squ-bx-xRH"/>
+                <constraint firstItem="gag-Kx-haF" firstAttribute="top" secondItem="gTV-IL-0wX" secondAttribute="top" id="aTe-9j-2bd"/>
+                <constraint firstAttribute="trailing" secondItem="0Pi-mZ-Oxe" secondAttribute="trailing" id="b9s-gy-wUA"/>
+                <constraint firstAttribute="trailing" secondItem="XE4-Ck-CMz" secondAttribute="trailing" constant="2" id="lee-bt-D0S"/>
+                <constraint firstItem="6jD-IK-jem" firstAttribute="leading" secondItem="gTV-IL-0wX" secondAttribute="leading" constant="10" id="yPQ-Fh-Ogu"/>
+                <constraint firstAttribute="trailing" secondItem="6jD-IK-jem" secondAttribute="trailing" constant="10" id="zoZ-NE-nm7"/>
+            </constraints>
+            <variation key="default">
+                <mask key="constraints">
+                    <exclude reference="yPQ-Fh-Ogu"/>
+                    <exclude reference="zoZ-NE-nm7"/>
+                </mask>
+            </variation>
+            <connections>
+                <outlet property="border" destination="0Pi-mZ-Oxe" id="eIi-1A-wtp"/>
+                <outlet property="dropShadowView" destination="gag-Kx-haF" id="Pnn-Ys-xhK"/>
+                <outlet property="timeIcon" destination="6jD-IK-jem" id="uDr-8G-xr3"/>
+                <outlet property="timeLabel" destination="XE4-Ck-CMz" id="uA5-O5-NqN"/>
+            </connections>
+        </collectionViewCell>
+    </objects>
+</document>

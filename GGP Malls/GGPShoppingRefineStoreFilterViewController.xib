@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="11201" systemVersion="16A323" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" colorMatched="YES">
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="11161"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner" customClass="GGPShoppingRefineStoreFilterViewController">
+            <connections>
+                <outlet property="searchBar" destination="Hou-C4-lA9" id="n2h-9S-I13"/>
+                <outlet property="tableViewContainer" destination="ghg-AX-agK" id="jSy-yU-brP"/>
+                <outlet property="view" destination="i5M-Pr-FkT" id="sfx-zR-JGt"/>
+            </connections>
+        </placeholder>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <view clearsContextBeforeDrawing="NO" contentMode="scaleToFill" id="i5M-Pr-FkT">
+            <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+            <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+            <subviews>
+                <searchBar contentMode="redraw" translatesAutoresizingMaskIntoConstraints="NO" id="Hou-C4-lA9">
+                    <textInputTraits key="textInputTraits"/>
+                </searchBar>
+                <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="ghg-AX-agK">
+                    <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                </view>
+            </subviews>
+            <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+            <constraints>
+                <constraint firstAttribute="trailing" secondItem="ghg-AX-agK" secondAttribute="trailing" id="OQL-I8-eU7"/>
+                <constraint firstAttribute="bottom" secondItem="ghg-AX-agK" secondAttribute="bottom" id="h76-zh-dcf"/>
+                <constraint firstItem="ghg-AX-agK" firstAttribute="top" secondItem="Hou-C4-lA9" secondAttribute="bottom" id="itW-70-aBJ"/>
+                <constraint firstAttribute="trailing" secondItem="Hou-C4-lA9" secondAttribute="trailing" id="khh-3r-Fz9"/>
+                <constraint firstItem="Hou-C4-lA9" firstAttribute="leading" secondItem="i5M-Pr-FkT" secondAttribute="leading" id="lCV-XY-EVf"/>
+                <constraint firstItem="Hou-C4-lA9" firstAttribute="top" secondItem="i5M-Pr-FkT" secondAttribute="top" id="mLm-B0-cM6"/>
+                <constraint firstItem="ghg-AX-agK" firstAttribute="leading" secondItem="i5M-Pr-FkT" secondAttribute="leading" id="zDD-xI-AL6"/>
+            </constraints>
+        </view>
+    </objects>
+</document>
